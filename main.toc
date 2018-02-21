@@ -14,7 +14,8 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Initial work in Python}{9}{subsection.4.1}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Constructing a GUI in Java}{9}{subsection.4.2}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Probabilistic Prediction of Position}{10}{subsection.4.3}
-\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{12}{section.5}
-\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{15}{section.6}
-\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{18}{section.7}
-\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{20}{section.8}
+\contentsline {section}{References}{12}{section*.7}
+\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{13}{section.5}
+\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{16}{section.6}
+\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{19}{section.7}
+\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{21}{section.8}
