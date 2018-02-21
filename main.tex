@@ -1,0 +1,68 @@
+%Document styles, font text, sizes
+\documentclass[12pt, journal, transmag, onecolumn]{IEEEtran}   	% use "amsart" instead of "article" for AMSLaTeX format
+
+%LaTeX packages to be used:
+\usepackage{graphicx}				
+\usepackage{blindtext}
+\usepackage{amssymb}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{subcaption}
+
+
+%Document begins here. Separate sections are written in separate .tex files and inputted into the main .tex file
+\begin{document}
+\title{Cost Effective Demonstration of Wave-Particle\\ Duality on a Table Top}
+\author{\IEEEauthorblockN{Johnny Allain-Labon, Chong Keat Gea, Steven Vuong, Georges Ajaka, \\Benji Berczi, Kelvin Fang, Alex Stock, Mohit Motwani}
+\IEEEauthorblockA{11/1/18, Lab 1, Department of Physics and Astronomy, University College London, London WC1E 6BT
+\\Board member: Professor Ryan Nichol}%
+}
+
+
+\IEEEtitleabstractindextext{%
+\begin{abstract}
+
+\blindtext
+
+\end{abstract}
+}
+
+% make the title area
+\maketitle
+\clearpage
+\tableofcontents
+
+\clearpage
+\spacing{1.2}
+\input{Introduction.tex}
+
+\input{theory/Theory.tex}
+\spacing{1.2}
+
+\clearpage
+\input{prototype/InitialApparatus.tex}
+\spacing{1.2}
+
+\clearpage
+\input{simulation/Simulation.tex}
+\spacing{1.2}
+
+\bibliographystyle{IEEEtran}
+\bibliography{bibliography.bib}
+
+\clearpage
+\input{AppendixA:11-1-18.tex}
+\spacing{1.2}
+
+\clearpage
+\input{AppendixB:18-1-18.tex}
+\spacing{1.2}
+
+\clearpage
+\input{AppendixC:25-01-18.tex}
+\spacing{1.2}
+
+\clearpage
+\input{AppendixD:01-02-18.tex}
+\spacing{1.2}
+\end{document}  
