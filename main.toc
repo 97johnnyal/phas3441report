@@ -1,0 +1,20 @@
+\contentsline {section}{\numberline {I}Introduction}{3}{section.1}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-A}}Aims}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-B}}Objectives}{3}{subsection.1.2}
+\contentsline {section}{\numberline {II}Theory}{4}{section.2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Droplet motion}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Pilot Wave Theory}{5}{subsection.2.2}
+\contentsline {section}{\numberline {III}Initial Apparatus}{7}{section.3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Box creation}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-B}}Droplet Creation}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-C}}Signal Generation}{7}{subsection.3.3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-D}}Liquid Choice}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Recording Droplet Motion}{8}{subsection.3.5}
+\contentsline {section}{\numberline {IV}Simulation}{9}{section.4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Initial work in Python}{9}{subsection.4.1}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Constructing a GUI in Java}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Probabilistic Prediction of Position}{10}{subsection.4.3}
+\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{12}{section.5}
+\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{15}{section.6}
+\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{18}{section.7}
+\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{20}{section.8}

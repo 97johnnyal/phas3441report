@@ -37,9 +37,22 @@ Having demonstrated the possibility of displaying wave-functions in Java, displa
 
 The application of this to our project was that once the droplet is found at a given pixel, the distance between that pixel and the next pixel representing the location of the droplet is used to calculate the velocity v of the particle, assuming the droplet moves to the new pixel in the space of one period $T=1/f$. The wave-function was updated with the new velocity, once a Lorentz transform was accounted for. This whole process is repeated to find the trajectory of the pixel.
 
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{simulation/probabiltyPosition.png]
+\caption{Results of the probabilistic prediction of the droplet position, where each dot represents the droplet being present at this point}
+\label{fig:probabilisticPrediction}
+\end{figure}
+
 \begin{equation}
     NEED TO COMPLETE
     \label{equ:probWaveEqn}
 \end{equation}
 
 Although this process was successful, all it ended up proving was that a random position generator works. It does not accurately simulate the position of droplets created in our experiment. Therefore, we proceeded to calculate the equations of motion and the wave-function of the droplet at each point.
+
+
+
+
+
+
