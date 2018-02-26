@@ -36,8 +36,14 @@ R.~Brady and R.~Anderson, ``Why bouncing droplets are a pretty good model of
 
 \bibitem{waveanimation}
 \BIBentryALTinterwordspacing
-(2015, 7) The wave equation. [Online]. Available:
+{The beginner programmer}. (2015, 7) The wave equation. Accessed 21/2/18.
+  [Online]. Available:
   \url{http://firsttimeprogrammer.blogspot.co.uk/2015/07/the-wave-equation-2d-and-3d.html}
 \BIBentrySTDinterwordspacing
+
+\bibitem{oza2013trajectory}
+A.~U. Oza, R.~R. Rosales, and J.~W. Bush, ``A trajectory equation for walking
+  droplets: hydrodynamic pilot-wave theory,'' \emph{Journal of Fluid
+  Mechanics}, vol. 737, pp. 552--570, 2013.
 
 \end{thebibliography}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  21 FEB 2018 12:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  26 FEB 2018 12:26
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -327,38 +327,128 @@ Package caption Info: hyperref package is loaded.
 )
 \c@subfigure=\count123
 \c@subtable=\count124
+) (/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2017/10/30 v1.20 mathematical typesetting tools
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen139
+\calc@Bdimen=\dimen140
+\calc@Askip=\skip45
+\calc@Bskip=\skip46
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count127
+\calc@Cskip=\skip47
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen141
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen142
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count128
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count129
+\leftroot@=\count130
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count131
+\DOTSCASE@=\count132
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen143
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count133
+\c@MaxMatrixCols=\count134
+\dotsspace@=\muskip11
+\c@parentequation=\count135
+\dspbrk@lvl=\count136
+\tag@help=\toks18
+\row@=\count137
+\column@=\count138
+\maxfields@=\count139
+\andhelp@=\toks19
+\eqnshift@=\dimen144
+\alignsep@=\dimen145
+\tagshift@=\dimen146
+\tagwidth@=\dimen147
+\totwidth@=\dimen148
+\lineht@=\dimen149
+\@envbody=\toks20
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count140
+\l_MT_multwidth_dim=\dimen150
+\origjot=\skip51
+\l_MT_shortvdotswithinadjustabove_dim=\dimen151
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen152
+\l_MT_above_intertext_sep=\dimen153
+\l_MT_below_intertext_sep=\dimen154
+\l_MT_above_shortintertext_sep=\dimen155
+\l_MT_below_shortintertext_sep=\dimen156
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 -- Lines per column: 50 (exact).
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
-\scratchdimen=\dimen139
-\scratchbox=\box28
-\nofMPsegments=\count126
-\nofMParguments=\count127
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count128
-\MPscratchDim=\dimen140
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count141
+\scratchdimen=\dimen157
+\scratchbox=\box30
+\nofMPsegments=\count142
+\nofMParguments=\count143
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count144
+\MPscratchDim=\dimen158
+\MPnumerator=\count145
+\makeMPintoPDFobject=\count146
+\everyMPtoPDFconversion=\toks23
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -376,8 +466,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 14.
+\AtBeginShipoutBox=\box31
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -385,11 +475,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count131
+\c@section@level=\count147
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -398,15 +488,15 @@ LaTeX Info: Redefining \nameref on input line 14.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-Overfull \hbox (5.93787pt too wide) in paragraph at lines 32--32
+Overfull \hbox (5.93787pt too wide) in paragraph at lines 37--37
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -425,7 +515,7 @@ Missing character: There is no “ in font ptmr7t!
  [3
 
 ]) (./theory/Theory.tex
-<theory/regime.png, id=140, 624.83438pt x 436.63126pt>
+<theory/regime.png, id=145, 624.83438pt x 436.63126pt>
 File: theory/regime.png Graphic file (type png)
 <use theory/regime.png>
 Package pdftex.def Info: theory/regime.png  used on input line 19. on input lin
@@ -433,7 +523,7 @@ e 19.
 Package pdftex.def Info: Requested size: 341.43306pt x 238.59558pt on input lin
 e 19.
  [4]
-<theory/walkingDroplet.png, id=162, 836.3747pt x 414.79968pt>
+<theory/walkingDroplet.png, id=167, 836.3747pt x 414.79968pt>
 File: theory/walkingDroplet.png Graphic file (type png)
 <use theory/walkingDroplet.png>
 Package pdftex.def Info: theory/walkingDroplet.png  used on input line 29. on i
@@ -454,14 +544,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 ) [8] (./simulation/Simulation.tex
-<simulation/basich0.png, id=192, 501.875pt x 388.45125pt>
+<simulation/basich0.png, id=197, 501.875pt x 388.45125pt>
 File: simulation/basich0.png Graphic file (type png)
 <use simulation/basich0.png>
 Package pdftex.def Info: simulation/basich0.png  used on input line 13. on inpu
 t line 13.
 Package pdftex.def Info: Requested size: 258.0pt x 199.70195pt on input line 13
 .
-<simulation/basichmax.png, id=193, 521.44812pt x 404.00937pt>
+<simulation/basichmax.png, id=198, 521.44812pt x 404.00937pt>
 File: simulation/basichmax.png Graphic file (type png)
 <use simulation/basichmax.png>
 Package pdftex.def Info: simulation/basichmax.png  used on input line 18. on in
@@ -476,7 +566,7 @@ Overfull \hbox (2.75995pt too wide) in paragraph at lines 11--21
 [9
 
  <./simulation/basich0.png> <./simulation/basichmax.png>]
-<simulation/javaMaxHeight.png, id=208, 1505.12312pt x 1030.85126pt>
+<simulation/javaMaxHeight.png, id=213, 1505.12312pt x 1030.85126pt>
 File: simulation/javaMaxHeight.png Graphic file (type png)
 <use simulation/javaMaxHeight.png>
 Package pdftex.def Info: simulation/javaMaxHeight.png  used on input line 30. o
@@ -502,8 +592,27 @@ l.42 ...twidth]{simulation/probabiltyPosition.png}
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [11])
-(./main.bbl) [12] (./AppendixA:11-1-18.tex
+) [11]
+./simulation/Simulation.tex:76: Undefined control sequence.
+l.76 ...y}^{\floor{t/T_F}} A \mathbf{J}_0(k_F \abs
+                                                  {\mathbf{x}-\mathbf{x}_p(n...
+
+? 
+
+LaTeX Warning: File `simulation/matlab.png' not found on input line 84.
+
+
+./simulation/Simulation.tex:84: Package pdftex.def Error: File `simulation/matl
+ab.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84 ...s[width=\textwidth]{simulation/matlab.png}
+                                                  
+? 
+[12]) (./main.bbl [13]) [14] (./AppendixA:11-1-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
  []
@@ -523,7 +632,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[13
+[15
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
@@ -545,7 +654,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[14]) [15] (./AppendixB:18-1-18.tex
+[16]) [17] (./AppendixB:18-1-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -560,19 +669,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-[16
+[18
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-[17]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-) [18] (./AppendixC:25-01-18.tex
+) [20] (./AppendixC:25-01-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -593,7 +702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[19
+[21
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
@@ -605,7 +714,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-) [20] (./AppendixD:01-02-18.tex
+) [22] (./AppendixD:01-02-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -625,7 +734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[21
+[23
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
@@ -638,35 +747,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 637CD7789D34B759F21C1751E0B9F3AD;1290.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
+(rerunfilecheck)             Checksum: DD57F075E1143186C257B78D577151D8;1382.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  )
 (\end occurred inside a group at level 8)
 
-### semi simple group (level 8) entered at line 67 (\begingroup)
-### semi simple group (level 7) entered at line 63 (\begingroup)
-### semi simple group (level 6) entered at line 59 (\begingroup)
-### semi simple group (level 5) entered at line 55 (\begingroup)
-### semi simple group (level 4) entered at line 48 (\begingroup)
-### semi simple group (level 3) entered at line 44 (\begingroup)
-### semi simple group (level 2) entered at line 40 (\begingroup)
-### semi simple group (level 1) entered at line 36 (\begingroup)
+### semi simple group (level 8) entered at line 72 (\begingroup)
+### semi simple group (level 7) entered at line 68 (\begingroup)
+### semi simple group (level 6) entered at line 64 (\begingroup)
+### semi simple group (level 5) entered at line 60 (\begingroup)
+### semi simple group (level 4) entered at line 53 (\begingroup)
+### semi simple group (level 3) entered at line 49 (\begingroup)
+### semi simple group (level 2) entered at line 45 (\begingroup)
+### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 7861 strings out of 492985
- 123050 string characters out of 6132585
- 207644 words of memory out of 5000000
- 11036 multiletter control sequences out of 15000+600000
+ 9013 strings out of 492985
+ 139895 string characters out of 6132585
+ 231343 words of memory out of 5000000
+ 12154 multiletter control sequences out of 15000+600000
  46925 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,1643b,1052s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,40p,1643b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -687,10 +796,10 @@ ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on main.pdf (22 pages, 1517227 bytes).
+Output written on main.pdf (24 pages, 1525923 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
- 265 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 620 PDF objects out of 1000 (max. 8388607)
+ 563 compressed objects within 6 object streams
+ 272 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
