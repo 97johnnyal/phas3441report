@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  26 FEB 2018 12:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  6 MAR 2018 15:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -515,7 +515,7 @@ Missing character: There is no “ in font ptmr7t!
  [3
 
 ]) (./theory/Theory.tex
-<theory/regime.png, id=145, 624.83438pt x 436.63126pt>
+<theory/regime.png, id=160, 624.83438pt x 436.63126pt>
 File: theory/regime.png Graphic file (type png)
 <use theory/regime.png>
 Package pdftex.def Info: theory/regime.png  used on input line 19. on input lin
@@ -523,7 +523,7 @@ e 19.
 Package pdftex.def Info: Requested size: 341.43306pt x 238.59558pt on input lin
 e 19.
  [4]
-<theory/walkingDroplet.png, id=167, 836.3747pt x 414.79968pt>
+<theory/walkingDroplet.png, id=182, 836.3747pt x 414.79968pt>
 File: theory/walkingDroplet.png Graphic file (type png)
 <use theory/walkingDroplet.png>
 Package pdftex.def Info: theory/walkingDroplet.png  used on input line 29. on i
@@ -544,14 +544,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 ) [8] (./simulation/Simulation.tex
-<simulation/basich0.png, id=197, 501.875pt x 388.45125pt>
+<simulation/basich0.png, id=212, 501.875pt x 388.45125pt>
 File: simulation/basich0.png Graphic file (type png)
 <use simulation/basich0.png>
 Package pdftex.def Info: simulation/basich0.png  used on input line 13. on inpu
 t line 13.
 Package pdftex.def Info: Requested size: 258.0pt x 199.70195pt on input line 13
 .
-<simulation/basichmax.png, id=198, 521.44812pt x 404.00937pt>
+<simulation/basichmax.png, id=213, 521.44812pt x 404.00937pt>
 File: simulation/basichmax.png Graphic file (type png)
 <use simulation/basichmax.png>
 Package pdftex.def Info: simulation/basichmax.png  used on input line 18. on in
@@ -566,53 +566,123 @@ Overfull \hbox (2.75995pt too wide) in paragraph at lines 11--21
 [9
 
  <./simulation/basich0.png> <./simulation/basichmax.png>]
-<simulation/javaMaxHeight.png, id=213, 1505.12312pt x 1030.85126pt>
-File: simulation/javaMaxHeight.png Graphic file (type png)
-<use simulation/javaMaxHeight.png>
-Package pdftex.def Info: simulation/javaMaxHeight.png  used on input line 30. o
-n input line 30.
-Package pdftex.def Info: Requested size: 516.0pt x 353.41048pt on input line 30
-.
- [10 <./simulation/javaMaxHeight.png>]
 
-LaTeX Warning: File `simulation/probabiltyPosition.png' not found on input line
- 42.
+LaTeX Warning: File `simulation/matlab.png' not found on input line 42.
 
 
-./simulation/Simulation.tex:42: Package pdftex.def Error: File `simulation/prob
-abiltyPosition.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.42 ...twidth]{simulation/probabiltyPosition.png}
-                                                  
-? 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [11]
-./simulation/Simulation.tex:76: Undefined control sequence.
-l.76 ...y}^{\floor{t/T_F}} A \mathbf{J}_0(k_F \abs
-                                                  {\mathbf{x}-\mathbf{x}_p(n...
-
-? 
-
-LaTeX Warning: File `simulation/matlab.png' not found on input line 84.
-
-
-./simulation/Simulation.tex:84: Package pdftex.def Error: File `simulation/matl
+./simulation/Simulation.tex:42: Package pdftex.def Error: File `simulation/matl
 ab.png' not found: using draft setting.
 
 See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 ...s[width=\textwidth]{simulation/matlab.png}
+l.42 ...s[width=\textwidth]{simulation/matlab.png}
                                                   
 ? 
-[12]) (./main.bbl [13]) [14] (./AppendixA:11-1-18.tex
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+)
+<simulation/javaMaxHeight.png, id=234, 1505.12312pt x 1030.85126pt>
+File: simulation/javaMaxHeight.png Graphic file (type png)
+<use simulation/javaMaxHeight.png>
+Package pdftex.def Info: simulation/javaMaxHeight.png  used on input line 55. o
+n input line 55.
+Package pdftex.def Info: Requested size: 516.0pt x 353.41048pt on input line 55
+.
+ [10] [11]
+<simulation/probabiltyPosition.png, id=250, 898.35625pt x 900.36375pt>
+File: simulation/probabiltyPosition.png Graphic file (type png)
+<use simulation/probabiltyPosition.png>
+Package pdftex.def Info: simulation/probabiltyPosition.png  used on input line 
+67. on input line 67.
+Package pdftex.def Info: Requested size: 516.0pt x 517.16934pt on input line 67
+.
+
+[12 <./simulation/javaMaxHeight.png>] [13 <./simulation/probabiltyPosition.png>
+]
+
+LaTeX Warning: Citation `Dotwave' on page 14 undefined on input line 123.
+
+[14]
+
+LaTeX Warning: Reference `fig:lowmemory' on page 15 undefined on input line 161
+.
+
+[15]
+
+./simulation/Simulation.tex:166: LaTeX Error: File `simulation/lowmemory/displa
+cement' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.166 ...width]{simulation/lowmemory/displacement}
+                                                  
+? 
+
+./simulation/Simulation.tex:172: LaTeX Error: File `simulation/lowmemory/veloci
+ty' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...textwidth]{simulation/lowmemory/velocity}
+                                                  
+? 
+
+./simulation/Simulation.tex:178: LaTeX Error: File `simulation/lowmemory/wavefi
+eld75' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 ...twidth]{simulation/lowmemory/wavefield75}
+                                                  
+? 
+
+./simulation/Simulation.tex:184: LaTeX Error: File `simulation/lowmemory/wavefi
+eld145' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 ...width]{simulation/lowmemory/wavefield145}
+                                                  
+? 
+
+./simulation/Simulation.tex:190: LaTeX Error: File `simulation/lowmemory/wavefi
+eld165' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 ...width]{simulation/lowmemory/wavefield165}
+                                                  
+? 
+
+Underfull \hbox (badness 1533) in paragraph at lines 191--191
+[]\OT1/ptm/m/n/10 (e) |Fol-low-ing mul-ti-ple in-ter-ac-tions with wave
+ []
+
+
+./simulation/Simulation.tex:196: LaTeX Error: File `simulation/lowmemory/wavefi
+eld195' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.196 ...width]{simulation/lowmemory/wavefield195}
+                                                  
+? 
+[16]) (./main.bbl) [17] (./AppendixA:11-1-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
  []
@@ -632,7 +702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[15
+[18
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
@@ -654,7 +724,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[16]) [17] (./AppendixB:18-1-18.tex
+[19]) [20] (./AppendixB:18-1-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -669,19 +739,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-[18
+[21
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-[19]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-) [20] (./AppendixC:25-01-18.tex
+) [23] (./AppendixC:25-01-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -702,7 +772,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[21
+[24
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
@@ -714,7 +784,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-) [22] (./AppendixD:01-02-18.tex
+) [25] (./AppendixD:01-02-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -734,7 +804,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[23
+[26
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
@@ -748,13 +818,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
- [24]
+ [27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DD57F075E1143186C257B78D577151D8;1382.
+(rerunfilecheck)             Checksum: 20515B84045C144B36A4FEA090690D2D;1643.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
  )
 (\end occurred inside a group at level 8)
@@ -769,13 +843,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
 ### semi simple group (level 1) entered at line 41 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9013 strings out of 492985
- 139895 string characters out of 6132585
- 231343 words of memory out of 5000000
- 12154 multiletter control sequences out of 15000+600000
+ 9078 strings out of 492985
+ 140886 string characters out of 6132585
+ 232984 words of memory out of 5000000
+ 12178 multiletter control sequences out of 15000+600000
  46925 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,1643b,1101s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,7n,40p,1665b,1104s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -789,17 +863,18 @@ al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-urw/times/utmri8a.pfb>
-Output written on main.pdf (24 pages, 1525923 bytes).
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on main.pdf (27 pages, 1889172 bytes).
 PDF statistics:
- 620 PDF objects out of 1000 (max. 8388607)
- 563 compressed objects within 6 object streams
- 272 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 618 compressed objects within 7 object streams
+ 294 named destinations out of 1000 (max. 500000)
+ 231 words of extra memory for PDF output out of 10000 (max. 10000000)
 

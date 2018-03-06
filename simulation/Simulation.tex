@@ -22,50 +22,8 @@ Initially, work undertaken by the simulation group consisted of finding suitable
 \label{fig:basicAnimation}
 \end{figure}
 
-\subsection{Constructing a GUI in Java}
-Initial versions of the Java simulation aimed to construct a pixel grid which could be used to represent a wavefield. Objects representing a given data point and a "frame" of these data points were constructed, and populated with amplitudes using (\ref{equ:basicHeight}). These amplitudes were then displayed in 2D by assigning them to an opacity scale, with 100\% opacity representing the maximum possible height and 100\% transparency representing the minimum possible height. For a 40,000 pixel frame running over 10 seconds, this process took approximately 9 seconds, but the animation process after this ran in real time. Figure \ref{fig:javaBasicHeight} shows a still image of this GUI taken when the "droplet" was at a minimum height of $-h_0$. This animation was a success, but at higher resolutions, latency when drawing the pixels to the screen caused it to lag, suggesting a need to either run multiple drawing tasks in parallel, or to display the droplet motion in an alternative way.
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\textwidth]{simulation/javaMaxHeight.png}
-    \caption{A basic Java GUI, here showing the droplet at its minimum height of $-h_0$}
-    \label{fig:javaBasicHeight}
-\end{figure}
-
-\subsection{Probabilistic Prediction of Position}
-Having demonstrated the possibility of displaying wave-functions in Java, displaying an object representing a droplet was the next task. Here, the assumption was that the wave (described by Equation \ref{equ:probWaveEqn}) represented a probability density function. Therefore, for a given (and ideally infinitesimal) pixel n of area dA, the probability $P_n$ of finding the particle at pixel $n$ was calculated from that function. The height ($z_n$) of each pixel within that section was calculated, with ${P_n}/{z_n}$ representing the probability of the particle being at that pixel. The sum of probabilities for this section, $Z=\sum_n{P_n}$, defined the normalisation value of the thread. A random number generator then generated a number R such that $0\leq R \leq 1$, which was multiplied by $Z$ to give a relative random number. The program then looped back over all the pixels in the section, and repeatedly subtracts $P_n$ from $RZ$ until $RZ<0$. The first pixel where this condition is satisfied is determined to be the location of the droplet. This process could then be multi-threaded to improve computational efficiency.
-
-The application of this to our project was that once the droplet is found at a given pixel, the distance between that pixel and the next pixel representing the location of the droplet is used to calculate the velocity v of the particle, assuming the droplet moves to the new pixel in the space of one period $T=1/f$. The wave-function was updated with the new velocity, once a Lorentz transform was accounted for. This whole process is repeated to find the trajectory of the pixel.
-
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{simulation/probabiltyPosition.png}
-\caption{Results of the probabilistic prediction of the droplet position, where each dot represents the droplet being present at this point}
-\label{fig:probabilisticPrediction}
-\end{figure}
-
-\begin{equation}
-    NEED~TO~COMPLETE
-    \label{equ:probWaveEqn}
-\end{equation}
-
-Although this process was successful, all it ended up proving was that a random position generator works. It does not accurately simulate the position of droplets created in our experiment. Therefore, we proceeded to calculate the equations of motion and the wave-function of the droplet at each point.
-
-$$h = -h_0 \cos{(\omega_0 t - \frac{\gamma^2\omega_0 v}{c^2} \Delta x)}J_0(\omega_0 r''/c)$$
-
-$$ h = -h_0 J_0(\omega_0 r''/c)$$
-
-$$\gamma = (1-\frac{v^2}{c^2})^{-{\frac{1}{2}}}$$
-
-$$\Delta x = x - vt$$
-
-$$r'' = \sqrt{\gamma^4(x-vt)^2 + (\gamma y)^2}$$
-
-$$H = \sum_i h_i D(i)$$
-
-\subsection{Using Matlab to Quickly Implement Theories}
-Parallel to the development of a prototype in Java, Matlab was used to test implementations of mathematical concepts found in our research, as it has a wide variety of built in libraries, such as for graphing software and advanced mathematical processes. Initially, equations of motion for the droplet were taken from \cite{oza2013trajectory}, where (\ref{equ:matlabPilotWave}) defines the wave-field of the particle and (\ref{equ:matlabWaveHeight}) defines the bath height over time. To implement these, a grid object was constructed and populated with x-y coordinates. A point in the middle of the grid was then selected as the starting position for a droplet, which was used as the centre of modelling for the first interaction.
-
+\subsection{Rapid prototyping in Matlab}
+Matlab was first chosen to test implementations of mathematical concepts found in our research, as it has a wide variety of built in libraries, such as for graphing software and advanced mathematical processes. Initially, equations of motion for the droplet were taken from \cite{oza2013trajectory}, where (\ref{equ:matlabPilotWave}) defines the wave-field of the particle and (\ref{equ:matlabWaveHeight}) defines the bath height over time. To implement these, a grid object was constructed and populated with x-y coordinates. A point in the middle of the grid was then selected as the starting position for a droplet, which was used as the centre of modelling for the first interaction.
 
 \begin{equation}
 m \vec{x}'' + D\vec{x}' + k\vec{x} = -mg\nabla h(\vec{x},t)
@@ -73,7 +31,7 @@ m \vec{x}'' + D\vec{x}' + k\vec{x} = -mg\nabla h(\vec{x},t)
 \end{equation}
 
 \begin{equation}
-h(\mathbf{x},t) = \sum_{n=-\infty}^{\floor{t/T_F}} A \mathbf{J}_0(k_F \abs{\mathbf{x}-\mathbf{x}_p(nT_F)}) e^{-(t-nT_F)/(T_F M_e)}
+h(\mathbf{x},t) = \sum_{n=-\infty}^{\floor{t/T_F}} A \mathbf{J}_0(k_F |\mathbf{x}-\mathbf{x}_p(nT_F)|) e^{-(t-nT_F)/(T_F M_e)}
 \label{equ:matlabWaveHeight}
 \end{equation}
 
@@ -89,3 +47,172 @@ Once a centre had been chosen, the wave-field generated by the droplet at that p
 In an ideal case, the number of recent wave-fields held in memory depends only on $M_e$, the memory parameter of the system. However, due to computational limitations only the 8 most recent impacts were used in the calculation of the wave-field, as this was the number of threads that could be processed in parallel. To work around this issue, the possibility of generating the data using a faster language like Java was investigated. However, Matlab remains the optimal solution for displaying and animating these wave-fields, due to the heavy optimisation offered by the built in graphics libraries.
 
 
+\subsection{Constructing a GUI in Java}
+In parallel to this work in Matlab, a Java simulation was developed, which aimed to construct a pixel grid which could be used to represent a wave-field. Objects representing a given data point and a "frame" of these data points were constructed, and populated with amplitudes using (\ref{equ:basicHeight}). These amplitudes were then displayed in 2D by assigning them to an opacity scale, with 100\% opacity representing the maximum possible height and 100\% transparency representing the minimum possible height. For a 40,000 pixel frame running over 10 seconds, this process took approximately 9 seconds, but the animation process after this ran in real time. Figure \ref{fig:javaBasicHeight} shows a still image of this GUI taken when the "droplet" was at a minimum height of $-h_0$. This animation was a success, but at higher resolutions, latency when drawing the pixels to the screen caused it to lag, suggesting a need to either run multiple drawing tasks in parallel, or to display the droplet motion in an alternative way.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{simulation/javaMaxHeight.png}
+    \caption{A basic Java GUI, here showing the droplet at its minimum height of $-h_0$}
+    \label{fig:javaBasicHeight}
+\end{figure}
+
+\subsection{Probabilistic prediction of position}
+Having demonstrated the possibility of displaying wave-functions in Java, displaying an object representing a droplet was the next task. Here, the assumption was that the wave (described by Equation \ref{equ:probWaveEqn}) represented a probability density function. Therefore, for a given (and ideally infinitesimal) pixel n of area dA, the probability $P_n$ of finding the particle at pixel $n$ was calculated from that function. The height ($z_n$) of each pixel within that section was calculated, with ${P_n}/{z_n}$ representing the probability of the particle being at that pixel. The sum of probabilities for this section, $Z=\sum_n{P_n}$, defined the normalisation value of the thread. A random number generator then generated a number R such that $0\leq R \leq 1$, which was multiplied by $Z$ to give a relative random number. The program then looped back over all the pixels in the section, and repeatedly subtracts $P_n$ from $RZ$ until $RZ<0$. The first pixel where this condition is satisfied is determined to be the location of the droplet. This process could then be multi-threaded to improve computational efficiency.
+
+The application of this to our project was that once the droplet is found at a given pixel, the distance between that pixel and the next pixel representing the location of the droplet is used to calculate the velocity v of the particle, assuming the droplet moves to the new pixel in the space of one period $T=1/f$. The wave-function was updated with the new velocity, once a Lorentz transform was accounted for. This whole process is repeated to find the trajectory of the pixel.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{simulation/probabiltyPosition.png}
+\caption{Results of the probabilistic prediction of the droplet position, where each dot represents the droplet being present at this point}
+\label{fig:probabilisticPrediction}
+\end{figure}
+
+\begin{equation}
+    h = -\cos(\omega t) J_0(\frac{\omega}{c} |\vec{r_f}-\vec{r_i}|)
+    \label{equ:probWaveEqn}
+\end{equation}
+
+Although this process was successful, all it ended up proving was that a random position generator works. It does not accurately simulate the position of droplets created in our experiment. Therefore, we proceeded to calculate the equations of motion and the wave-function of the droplet at each point.
+
+\subsection{Theoretical motion of the particle}
+
+Equations of motion for the droplet were taken from \cite{oza2013trajectory}, which showed that the surface wave produced on the $\textrm{n}^{\textrm{th}}$ impact of a particle at postion $r_n$ and time $T_n$ on a surface oscillating vertically at $\omega$ above the Faraday threshold is given by (\ref{equ:heightSurfaceWave}). Here, $ h(\vec{r} , t)$ is the height of the wave at $\vec{r}$, $J_0$ is a Bessel function of the first kind, and wave number $k$ satisfies the relation $ J_0 \left( k \vec{r_0} \right) = 0$. $\vec{r_0}$ is a numerical cutoff parameter, while the amplitude of the wave, A is material specific and determined by the system parameters used. The exponential decay term at the end of the equation describes the wave decaying over time at a rate determined by the memory $M_e$ and period of particle $T_f$.
+
+\begin{equation}
+h_n(\vec{r} , t) = A J_o\left(k\left|\vec{r} - \vec{r_n}\right| \right) e^{-\frac{\left(t-T_n\right)}{T_f M_e}}
+\label{equ:heightSurfaceWave}
+\end{equation}
+
+The overall surface wave can thus be described by the sum of all waves produced by every prior impact. Assuming the particle only interacts with the surface once every period (when the particle is at its lowest point), the overall wave equation $h (\vec{x} , t)$ is thus given by (\ref{equ:heightSumSurfaceWaves}).
+
+\begin{equation}
+h(\vec{r} , t) = \sum_{n=-\infty}^{\frac{t}{T_f}} A J_o\left(k\left|\vec{r} - \vec{r_n}\right| \right) e^{-\frac{\left(t-n T_f\right)}{T_f\times M_e}}
+\label{equ:heightSumSurfaceWaves}
+\end{equation}
+
+Furthermore, we know that the surface wave needs to consider relativistic effects. The coordinate transform on the wave formed by the $n^{th}$ impact of a particle at some velocity v is as follows:
+\begin{equation}
+h_n(\vec{r} , t) = A_0 cos\left(\omega_0 t - \frac{\gamma^2 \omega_0 v}{c^2}\right) J_0\left(k \left| \left(\vec{r} - \vec{r_n}\right)^{\prime \prime}  \right| \right)e^{-\frac{\left(t-n T_f\right)}{T_f\times Me}}
+\end{equation}
+
+Where:
+\begin{equation}
+\gamma = \frac{1}{\sqrt{1-\frac{v^2}{c^2}}}
+\end{equation}
+\begin{equation}
+\left(\vec{r} - \vec{r_n}\right)^{\prime \prime} = \gamma^2(\vec{r_v}-\vec{v}t)+\gamma\vec{r_{\perp}}
+\end{equation}
+
+$\vec{r_v}$ and $\vec{r_{\perp}}$ are the components of $\left(\vec{r} - \vec{r_n}\right)$ in the direction of velocity and perpendicular to velocity respectively.
+
+\subsection{Modelling assumptions and simulation mechanics}
+
+The following assumptions were made during the simulation: 
+
+\begin{enumerate}
+\item The particle and surface waves produce are oscillating in phase.
+\item The particle and surface only interacting within a small time frame, $T_i$ of the particles' lowest point.
+\item Average force exerted by the particle over $T_i$ is given by an effective wave force $F_b$. $F_b$ depends on material parameters and the mass of the particle. It has a maximum magnitude equal to the weight of the particle.
+\item Impulse applied to the particle in the vertical direction perpendicular to the surface is assumed to be negligible and the particle continues oscillating vertically at the same frequency and amplitude. 
+\item Particle experiences no damping force
+\item The overall wave equation $h(\vec{r} , t)$ is dominated by the waves due to the last $N$ bounces only. Waves formed longer than $N$ bounces ago are removed from the overall wave equation. This simplifies the computation of the infinite sum within the overall wave equation. In the java simulation, by integrating multi-threading methods into our calculation, we were able to efficiently perform calculations with $N = 300$.
+\end{enumerate}
+
+Following these modelling assumptions, the parameters of the system were set as follows \cite{Dotwave}:
+
+\begin{itemize}
+\item Particle mass, $m_p = 2.6\textrm{e}-7$ kg
+\item Driving Frequency $\omega= 80$ Hz
+\item Period of particle, $T_f = \frac{2}{\omega}$ s
+\item Gravitational acceleration, $g = -9.81$ m/s
+\item Effective force, $F_b = 1.3174e-6$ N
+\item Wave number, $k = 1250$
+\item Amplitude, A = $\frac{F_b}{m_pkg}$ m
+\item N = 300
+\end{itemize}
+
+The simulation starts by initiating a number of droplets on the surface, which vertically oscillate and form waves. On impact, each wave is added to an ArrayList of 2-D waveforms. To determine the height at any point, the height of all waves at that location in the ArrayList was summed, according to the superposition principle.
+
+From the assumptions made above, it can be shown that the change in velocity of the particle in the direction parallel to the surface is given by:
+\begin{equation} \Delta \vec{v} = \frac{T_i  F_b}{m_p} \times \frac{dh(\vec{x} , t)}{d\vec{x}}\end{equation}
+Where $m_p$ is the mass of the particle and the last term is the vector gradient of the wave.
+
+In 1-D, the gradient at a point $x = x_0$ is given by:
+\begin{equation} \frac{dy}{dx}\Bigr|_{x_0} = \lim_{x\to0} \frac{y(x+\delta x)-y(x-\delta x)}{2\delta x}\end{equation}
+
+Using a Taylor expansion about $x_0$, it can be shown that for $\delta x\neq 0$:
+\begin{equation} \frac{dy}{dx}\Bigr|_{x_0} = \frac{y(x+\delta x) - y(x-\delta x)}{2\delta x} - O(\delta x)\end{equation}
+Where $O(\delta x)$ is the residual given by:
+\begin{equation}O(\delta x) = \sum_{n=2}^{\infty} \left( \frac{y^{(n)}(x_0)}{n!\times (2\delta x)} \left[ \left( x+\delta x -x_0 \right)^n - \left(x-\delta x -x_0 \right)^n \right] \right)\end{equation}
+
+The 2-D vector gradient of $h(\vec{r} , t)$ was determined by first finding the 1-D gradient in the x-direction by using $\delta \vec{r} = (\delta x,0)$, followed by that in the y-direction by using $\delta \vec{r} = (0,\delta y)$. The 1-D gradients in each direction corresponds to the component of the 2-D vector gradient in their respective directions. 
+
+In our computational model, $|\delta \vec{r}| = 1\times 10^{-18}$ was used. The resolution of the Bessel functions used prevented the use of any value smaller than this. Attempts using $|\delta \vec{r}| = 1\times 10^{-19}$ resulted in gradients calculated to either have magnitude 0 or magnitude $\approx 30$, which does not match the shape of the first order Bessel function.
+
+The wave velocity was calculated as $\approx 0.201$. The perturbation velocity was on the order of 0.001, corresponding to $\gamma = 1.00001$. For simplicity of simulation, the Lorentz effects were assumed to be negligible and left out of calculation.
+
+
+\subsection{Simulation in the high- and low-memory regimes}
+
+The goal of the first simulation was to show that walking occurs as a result of the high memory regime. The difference between the high memory and low memory regimes is the rate of decay of the waves created by each impact on the surface. In the high memory regime, the waves decay slowly, and so waves created in the distant past can still strongly influence the particle trajectory. However, in the low memory regime, the waves decay rapidly, so only waves created in the recent past can significantly influence the particle's trajectory.
+
+To test this, two simulations were run, one at Me = 150 and one at Me = 15. In both simulations, N = 300 was used. The particle was allowed to first bounce on the spot to build up 300 waves in the overall wave equation, corresponding to t = 7.5s. The particle was then perturbed by spontaneously changing its velocity to $\vec{v} = (0.0005,0)$. The results of the high and the low memory regime simulations are shown in Figures \ref{fig:highmemory} and \ref{fig:lowmemory} respectively.
+
+\begin{figure}
+	\centering
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{simulation/lowmemory/displacement}
+		\caption{Graph of displacement in the x-direction over time}
+		\label{fig:lowmem:displacement}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{simulation/lowmemory/velocity}
+		\caption{The particle velocity fluctuates chaotically before entering a stable state $\approx 11$s after perturbation}
+		\label{fig:lowmem:velocity}.
+	\end{subfigure}
+	%
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{simulation/lowmemory/wavefield75}
+		\caption{The overall surface wave after $7.5$s; the wave-field has a similar shape to a 2-D harmonic potential well}
+		\label{fig:lowmem:wavefield75}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{simulation/lowmemory/wavefield145}
+		\caption{The wave-field at $14.5$s, just prior to the particle breaking through the potential barrier and travelling}
+		\label{fig:lowmem:wavefield145}.
+	\end{subfigure}
+	%
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{simulation/lowmemory/wavefield165}
+		\caption{Following multiple interactions with wave peaks, the particle decelerates and reforms a potential well}
+		\label{fig:lowmem:wavefield165}.
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.4\textwidth}
+		\includegraphics[width=\textwidth]{simulation/lowmemory/wavefield195}
+		\caption{The stable wave-field at $19.5$s, now displaced by $0.01m$.}
+		\label{fig:lowmem:wavefield195}.
+	\end{subfigure}
+\caption{Results of the simulation in the high-memory regime at different time periods}
+\label{fig:highmemory}
+\end{figure}
+
+We see from Figure \ref{fig:lowmem:velocity} that the particle velocity is chaotic. This causes the particle to oscillate around two centres of displacement, initially the start position, and later about the point $(0.01,0)$. We also observe in Figure \ref{fig:lowmem:wavefield75} that, prior to perturbation, the wave-field is similar in shape to a 2-D harmonic potential well, of width $\lambda/2$ and centred about the initial position of the particle. Upon perturbation, the particle oscillates, as expected for such a system. However, with each impact at positions away from the start position, new waveforms are added to the overall wave-function at these points. The waves formed at this point superpose over the 2-D harmonic potential well, flattening it along the x-axis. After approximately 7s, the peaks at $\lambda/2$ away from the start position along the x-axis were low enough that the particle could leave the well as shown in Figure \ref{fig:lowmem:wavefield145}.
+
+The particle is now free to "walk" outside the initial potential well. 
+
+The overall surface wave at 7.5s is shown in figure 1(c). The wavefield is observed to be similar in shape to the 2-D harmonic potential well within half wavelength about the particles' start position. At this point, the particle is perturbed. As expected for a particle oscillating in a 2-D harmonic potential, the particle enters oscillatory motion. However, with each impact at positions away from the start position, new waveforms are added to the overall wavefunction at these points. The wave forms at this point superpose over the 2-D harmonic potential well flattening it along the x-axis. after approximately 7s, the peaks at half wavelength away from the start position along the x-axis were low enought that the particle could traverse it and leave the well about the start position. The overall surface wave at this point is shown in figure 1(d). As the particle carries on in its trajectory away from the start position, it interacts with other smaller peaks causing it to slow down. As the particle slows down, the most recently formed waves are centered closer and closer together eventually reforming yet another potential well approximately about point (0.01,0). The overall surface wave at this point is shown in figure 1(e). The particle then starts oscillating about this point for approximately 4s before the same mechanisms that allowed it to break through the first potential well occurs and the particle leaves the new formed well. Following this the particle enters a steady state and continues travelling with a stable velocity of (-0.043,0) $ms^{-1}$. The particle has thus started "walking". 
+
+The high regime simulation was repeated for pertubation velocity with magnitude between 0.0001 $ms^{-1}$ and 0.002 $ms^{-1}$ at intervals of 0.0001 $ms^{-1}$ to ensure that the above result of achieving walking was not due to specifically selected variables. In all cases the particle entered a steady "walking" state with velocities ranging form magnitude 0.00859 to 0.102. The final steady state velocities of each particle and their corresponding perturbation velocity can be foudn in Annex A. No observable trend was found relating the steady "walking" state velocity and the perturbation velocity.
+
+// details of what each figure is
+1 a) displacement against time. (b) Velocity against time. (c) waveform at 7.5s -> waveform before pertubation (d) wave form at 14.5s (frame 580) -> waveform when particle breaks the first peak at have wavelength away from original centre (e) waveform at 16.5s (frame 660) particle slows down after multiple interaction with peaks and reforms a potential well (f) waveform at 19.5s (frame 780)
+
+
+
+
+ 

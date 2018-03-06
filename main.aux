@@ -40,33 +40,54 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Recording Droplet Motion}{8}{subsection.3.5}}
 \citation{brady2014bouncing}
 \citation{waveanimation}
+\citation{oza2013trajectory}
 \@writefile{toc}{\contentsline {section}{\numberline {IV}Simulation}{9}{section.4}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Initial work in Python}{9}{subsection.4.1}}
 \newlabel{equ:basicHeight}{{4}{9}{Initial work in Python}{equation.4.4}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Simulation output generated with Python and Matplotlib. (a) represents the initial state of the wavefield, while (b) represents the state of the wave-field when the "droplet" at the centre is at its maximum height\relax }}{9}{figure.caption.4}}
 \newlabel{fig:basicAnimation}{{3}{9}{Simulation output generated with Python and Matplotlib. (a) represents the initial state of the wavefield, while (b) represents the state of the wave-field when the "droplet" at the centre is at its maximum height\relax }{figure.caption.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Constructing a GUI in Java}{9}{subsection.4.2}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A basic Java GUI, here showing the droplet at its minimum height of $-h_0$\relax }}{10}{figure.caption.5}}
-\newlabel{fig:javaBasicHeight}{{4}{10}{A basic Java GUI, here showing the droplet at its minimum height of $-h_0$\relax }{figure.caption.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Probabilistic Prediction of Position}{10}{subsection.4.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Results of the probabilistic prediction of the droplet position, where each dot represents the droplet being present at this point\relax }}{11}{figure.caption.6}}
-\newlabel{fig:probabilisticPrediction}{{5}{11}{Results of the probabilistic prediction of the droplet position, where each dot represents the droplet being present at this point\relax }{figure.caption.6}{}}
-\newlabel{equ:probWaveEqn}{{5}{11}{Probabilistic Prediction of Position}{equation.4.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Rapid prototyping in Matlab}{9}{subsection.4.2}}
+\newlabel{equ:matlabPilotWave}{{5}{10}{Rapid prototyping in Matlab}{equation.4.5}{}}
+\newlabel{equ:matlabWaveHeight}{{6}{10}{Rapid prototyping in Matlab}{equation.4.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Constructing a GUI in Java}{10}{subsection.4.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Probabilistic prediction of position}{10}{subsection.4.4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The wave-field of a single droplet after multiple iterations; COLOUR SCALE TBC\relax }}{11}{figure.caption.5}}
+\newlabel{fig:matlabMaths}{{4}{11}{The wave-field of a single droplet after multiple iterations; COLOUR SCALE TBC\relax }{figure.caption.5}{}}
 \citation{oza2013trajectory}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Using Matlab to Quickly Implement Theories}{12}{subsection.4.4}}
-\newlabel{equ:matlabPilotWave}{{6}{12}{Using Matlab to Quickly Implement Theories}{equation.4.6}{}}
-\newlabel{equ:matlabWaveHeight}{{7}{12}{Using Matlab to Quickly Implement Theories}{equation.4.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces A basic Java GUI, here showing the droplet at its minimum height of $-h_0$\relax }}{12}{figure.caption.6}}
+\newlabel{fig:javaBasicHeight}{{5}{12}{A basic Java GUI, here showing the droplet at its minimum height of $-h_0$\relax }{figure.caption.6}{}}
+\newlabel{equ:probWaveEqn}{{7}{12}{Probabilistic prediction of position}{equation.4.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-E}}Theoretical motion of the particle}{12}{subsection.4.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Results of the probabilistic prediction of the droplet position, where each dot represents the droplet being present at this point\relax }}{13}{figure.caption.7}}
+\newlabel{fig:probabilisticPrediction}{{6}{13}{Results of the probabilistic prediction of the droplet position, where each dot represents the droplet being present at this point\relax }{figure.caption.7}{}}
+\newlabel{equ:heightSurfaceWave}{{8}{13}{Theoretical motion of the particle}{equation.4.8}{}}
+\citation{Dotwave}
+\newlabel{equ:heightSumSurfaceWaves}{{9}{14}{Theoretical motion of the particle}{equation.4.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-F}}Modelling assumptions and simulation mechanics}{14}{subsection.4.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-G}}Simulation in the high- and low-memory regimes}{15}{subsection.4.7}}
+\newlabel{fig:lowmem:displacement}{{7a}{16}{Graph of displacement in the x-direction over time\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:lowmem:displacement}{{a}{16}{Graph of displacement in the x-direction over time\relax }{figure.caption.8}{}}
+\newlabel{fig:lowmem:velocity}{{7b}{16}{The particle velocity fluctuates chaotically before entering a stable state $\approx 11$s after perturbation\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:lowmem:velocity}{{b}{16}{The particle velocity fluctuates chaotically before entering a stable state $\approx 11$s after perturbation\relax }{figure.caption.8}{}}
+\newlabel{fig:lowmem:wavefield75}{{7c}{16}{The overall surface wave after $7.5$s; the wave-field has a similar shape to a 2-D harmonic potential well\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:lowmem:wavefield75}{{c}{16}{The overall surface wave after $7.5$s; the wave-field has a similar shape to a 2-D harmonic potential well\relax }{figure.caption.8}{}}
+\newlabel{fig:lowmem:wavefield145}{{7d}{16}{The wave-field at $14.5$s, just prior to the particle breaking through the potential barrier and travelling\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:lowmem:wavefield145}{{d}{16}{The wave-field at $14.5$s, just prior to the particle breaking through the potential barrier and travelling\relax }{figure.caption.8}{}}
+\newlabel{fig:lowmem:wavefield165}{{7e}{16}{Following multiple interactions with wave peaks, the particle decelerates and reforms a potential well\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:lowmem:wavefield165}{{e}{16}{Following multiple interactions with wave peaks, the particle decelerates and reforms a potential well\relax }{figure.caption.8}{}}
+\newlabel{fig:lowmem:wavefield195}{{7f}{16}{The stable wave-field at $19.5$s, now displaced by $0.01m$.\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:lowmem:wavefield195}{{f}{16}{The stable wave-field at $19.5$s, now displaced by $0.01m$.\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Results of the simulation in the high-memory regime at different time periods\relax }}{16}{figure.caption.8}}
+\newlabel{fig:highmemory}{{7}{16}{Results of the simulation in the high-memory regime at different time periods\relax }{figure.caption.8}{}}
 \bibstyle{IEEEtran}
 \bibdata{bibliography.bib}
 \bibcite{couder}{1}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The wave-field of a single droplet after multiple iterations; COLOUR SCALE TBC\relax }}{13}{figure.caption.7}}
-\newlabel{fig:matlabMaths}{{6}{13}{The wave-field of a single droplet after multiple iterations; COLOUR SCALE TBC\relax }{figure.caption.7}{}}
 \bibcite{Walker}{2}
 \bibcite{brady2014bouncing}{3}
 \bibcite{waveanimation}{4}
 \bibcite{oza2013trajectory}{5}
-\@writefile{toc}{\contentsline {section}{References}{14}{section*.8}}
-\@writefile{toc}{\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{15}{section.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{18}{section.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{21}{section.7}}
-\@writefile{toc}{\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{23}{section.8}}
+\@writefile{toc}{\contentsline {section}{References}{17}{section*.9}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{18}{section.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{21}{section.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{24}{section.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{26}{section.8}}

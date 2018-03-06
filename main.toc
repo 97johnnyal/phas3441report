@@ -12,11 +12,14 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-E}}Recording Droplet Motion}{8}{subsection.3.5}
 \contentsline {section}{\numberline {IV}Simulation}{9}{section.4}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}Initial work in Python}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Constructing a GUI in Java}{9}{subsection.4.2}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Probabilistic Prediction of Position}{10}{subsection.4.3}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Using Matlab to Quickly Implement Theories}{12}{subsection.4.4}
-\contentsline {section}{References}{14}{section*.8}
-\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{15}{section.5}
-\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{18}{section.6}
-\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{21}{section.7}
-\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{23}{section.8}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}Rapid prototyping in Matlab}{9}{subsection.4.2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Constructing a GUI in Java}{10}{subsection.4.3}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-D}}Probabilistic prediction of position}{10}{subsection.4.4}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-E}}Theoretical motion of the particle}{12}{subsection.4.5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-F}}Modelling assumptions and simulation mechanics}{14}{subsection.4.6}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-G}}Simulation in the high- and low-memory regimes}{15}{subsection.4.7}
+\contentsline {section}{References}{17}{section*.9}
+\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{18}{section.5}
+\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{21}{section.6}
+\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{24}{section.7}
+\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{26}{section.8}
