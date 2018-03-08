@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  6 MAR 2018 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  8 MAR 2018 16:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -417,38 +417,115 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen154
 \l_MT_above_shortintertext_sep=\dimen155
 \l_MT_below_shortintertext_sep=\dimen156
-) (./main.aux)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count141
+\multirow@dima=\skip53
+\bigstrutjot=\dimen157
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen158
+\extrarowheight=\dimen159
+\NC@list=\toks22
+\extratabsurround=\skip54
+\backup@length=\skip55
+)
+\TX@col@width=\dimen160
+\TX@old@table=\dimen161
+\TX@old@col=\dimen162
+\TX@target=\dimen163
+\TX@delta=\dimen164
+\TX@cols=\count142
+\TX@ftn=\toks23
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box30
+\UL@hyphenbox=\box31
+\UL@skip=\skip56
+\UL@hook=\toks24
+\UL@height=\dimen165
+\UL@pe=\count143
+\UL@pixel=\dimen166
+\ULC@box=\box32
+Package: ulem 2012/05/18
+\ULdepth=\dimen167
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+))
+\AM@pagewidth=\dimen168
+\AM@pageheight=\dimen169
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box33
+\AM@global@opts=\toks25
+\AM@toc@title=\toks26
+\c@AM@survey=\count144
+\AM@templatesizebox=\box34
+)
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 -- Lines per column: 50 (exact).
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count141
-\scratchdimen=\dimen157
-\scratchbox=\box30
-\nofMPsegments=\count142
-\nofMParguments=\count143
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count144
-\MPscratchDim=\dimen158
-\MPnumerator=\count145
-\makeMPintoPDFobject=\count146
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count145
+\scratchdimen=\dimen170
+\scratchbox=\box35
+\nofMPsegments=\count146
+\nofMParguments=\count147
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count148
+\MPscratchDim=\dimen171
+\MPnumerator=\count149
+\makeMPintoPDFobject=\count150
+\everyMPtoPDFconversion=\toks28
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -466,8 +543,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 19.
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -475,11 +552,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count147
+\c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 19.
-LaTeX Info: Redefining \pageref on input line 19.
-LaTeX Info: Redefining \nameref on input line 19.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -488,15 +565,23 @@ LaTeX Info: Redefining \nameref on input line 19.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-Overfull \hbox (5.93787pt too wide) in paragraph at lines 37--37
+(/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+Overfull \hbox (5.93787pt too wide) in paragraph at lines 41--41
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -515,7 +600,7 @@ Missing character: There is no “ in font ptmr7t!
  [3
 
 ]) (./theory/Theory.tex
-<theory/regime.png, id=160, 624.83438pt x 436.63126pt>
+<theory/regime.png, id=176, 624.83438pt x 436.63126pt>
 File: theory/regime.png Graphic file (type png)
 <use theory/regime.png>
 Package pdftex.def Info: theory/regime.png  used on input line 19. on input lin
@@ -523,7 +608,7 @@ e 19.
 Package pdftex.def Info: Requested size: 341.43306pt x 238.59558pt on input lin
 e 19.
  [4]
-<theory/walkingDroplet.png, id=182, 836.3747pt x 414.79968pt>
+<theory/walkingDroplet.png, id=197, 836.3747pt x 414.79968pt>
 File: theory/walkingDroplet.png Graphic file (type png)
 <use theory/walkingDroplet.png>
 Package pdftex.def Info: theory/walkingDroplet.png  used on input line 29. on i
@@ -544,14 +629,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no £ in font ptmr7t!
 ) [8] (./simulation/Simulation.tex
-<simulation/basich0.png, id=212, 501.875pt x 388.45125pt>
+<simulation/basich0.png, id=227, 501.875pt x 388.45125pt>
 File: simulation/basich0.png Graphic file (type png)
 <use simulation/basich0.png>
 Package pdftex.def Info: simulation/basich0.png  used on input line 13. on inpu
 t line 13.
 Package pdftex.def Info: Requested size: 258.0pt x 199.70195pt on input line 13
 .
-<simulation/basichmax.png, id=213, 521.44812pt x 404.00937pt>
+<simulation/basichmax.png, id=228, 521.44812pt x 404.00937pt>
 File: simulation/basichmax.png Graphic file (type png)
 <use simulation/basichmax.png>
 Package pdftex.def Info: simulation/basichmax.png  used on input line 18. on in
@@ -584,7 +669,7 @@ LaTeX Font Info:    Try loading font information for OT1+pcr on input line 42.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-<simulation/javaMaxHeight.png, id=234, 1505.12312pt x 1030.85126pt>
+<simulation/javaMaxHeight.png, id=249, 1505.12312pt x 1030.85126pt>
 File: simulation/javaMaxHeight.png Graphic file (type png)
 <use simulation/javaMaxHeight.png>
 Package pdftex.def Info: simulation/javaMaxHeight.png  used on input line 55. o
@@ -592,7 +677,7 @@ n input line 55.
 Package pdftex.def Info: Requested size: 516.0pt x 353.41048pt on input line 55
 .
  [10] [11]
-<simulation/probabiltyPosition.png, id=250, 898.35625pt x 900.36375pt>
+<simulation/probabiltyPosition.png, id=265, 898.35625pt x 900.36375pt>
 File: simulation/probabiltyPosition.png Graphic file (type png)
 <use simulation/probabiltyPosition.png>
 Package pdftex.def Info: simulation/probabiltyPosition.png  used on input line 
@@ -682,7 +767,76 @@ Type  H <return>  for immediate help.
 l.196 ...width]{simulation/lowmemory/wavefield195}
                                                   
 ? 
-[16]) (./main.bbl) [17] (./AppendixA:11-1-18.tex
+[16]) [17] (./education/education.tex
+
+LaTeX Warning: Reference `app:powerpoint' on page 18 undefined on input line 4.
+
+
+<education/evaluationchart.pdf, id=322, pagebox=cropbox, 730.73pt x 337.26pt>
+File: education/evaluationchart.pdf Graphic file (type pdf)
+<use education/evaluationchart.pdf>
+Package pdftex.def Info: education/evaluationchart.pdf  used on input line 10. 
+on input line 10.
+Package pdftex.def Info: Requested size: 516.0pt x 238.16458pt on input line 10
+.
+[18
+
+ <./education/evaluationchart.pdf>]
+./education/education.tex:53: Misplaced alignment tab character &.
+l.53 ... \textbf{End of session} (10 mins): 10' Q&
+                                                  A on Physics at Uni, compl...
+
+? 
+<education/evaluation.pdf, id=339, pagebox=cropbox, 597.5078pt x 845.04686pt>
+File: education/evaluation.pdf Graphic file (type pdf)
+<use education/evaluation.pdf>
+Package pdftex.def Info: education/evaluation.pdf  used on input line 59. on in
+put line 59.
+Package pdftex.def Info: Requested size: 597.50633pt x 845.0448pt on input line
+ 59.
+File: education/evaluation.pdf Graphic file (type pdf)
+<use education/evaluation.pdf>
+Package pdftex.def Info: education/evaluation.pdf  used on input line 59. on in
+put line 59.
+Package pdftex.def Info: Requested size: 597.50633pt x 845.0448pt on input line
+ 59.
+<education/evaluation.pdf, id=342, page=1, pagebox=cropbox, 597.5078pt x 845.04
+686pt>
+File: education/evaluation.pdf Graphic file (type pdf)
+<use education/evaluation.pdf, page 1>
+Package pdftex.def Info: education/evaluation.pdf , page1 used on input line 59
+. on input line 59.
+Package pdftex.def Info: Requested size: 597.50633pt x 845.0448pt on input line
+ 59.
+File: education/evaluation.pdf Graphic file (type pdf)
+<use education/evaluation.pdf, page 1>
+Package pdftex.def Info: education/evaluation.pdf , page1 used on input line 59
+. on input line 59.
+Package pdftex.def Info: Requested size: 562.12238pt x 795.00179pt on input lin
+e 59.
+[19
+
+]
+File: education/evaluation.pdf Graphic file (type pdf)
+<use education/evaluation.pdf, page 1>
+Package pdftex.def Info: education/evaluation.pdf , page1 used on input line 59
+. on input line 59.
+Package pdftex.def Info: Requested size: 562.12238pt x 795.00179pt on input lin
+e 59.
+File: education/evaluation.pdf Graphic file (type pdf)
+<use education/evaluation.pdf, page 1>
+Package pdftex.def Info: education/evaluation.pdf , page1 used on input line 59
+. on input line 59.
+Package pdftex.def Info: Requested size: 562.12238pt x 795.00179pt on input lin
+e 59.
+File: education/evaluation.pdf Graphic file (type pdf)
+<use education/evaluation.pdf, page 1>
+Package pdftex.def Info: education/evaluation.pdf , page1 used on input line 59
+. on input line 59.
+Package pdftex.def Info: Requested size: 562.12238pt x 795.00179pt on input lin
+e 59.
+ [20 <./education/evaluation.pdf>]) (./main.bbl) [21]
+(./AppendixA:11-1-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
  []
@@ -702,7 +856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[18
+[22
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 94--95
@@ -724,7 +878,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
-[19]) [20] (./AppendixB:18-1-18.tex
+[23]) [24] (./AppendixB:18-1-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -739,19 +893,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-[21
+[25
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-[22]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-) [23] (./AppendixC:25-01-18.tex
+) [27] (./AppendixC:25-01-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
@@ -772,7 +926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[24
+[28
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
@@ -784,7 +938,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
-) [25] (./AppendixD:01-02-18.tex
+) [29] (./AppendixD:01-02-18.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
@@ -804,7 +958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
-[26
+[30
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 104--105
@@ -817,64 +971,259 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 73.
- [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 73.
+<education/ppt.pdf, id=605, pagebox=cropbox, 597.50786pt x 845.04686pt>
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf>
+Package pdftex.def Info: education/ppt.pdf  used on input line 84. on input lin
+e 84.
+Package pdftex.def Info: Requested size: 597.5064pt x 845.0448pt on input line 
+84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf>
+Package pdftex.def Info: education/ppt.pdf  used on input line 84. on input lin
+e 84.
+Package pdftex.def Info: Requested size: 597.5064pt x 845.0448pt on input line 
+84.
+<education/ppt.pdf, id=608, page=1, pagebox=cropbox, 597.50786pt x 845.04686pt>
+
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 1>
+Package pdftex.def Info: education/ppt.pdf , page1 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 597.5064pt x 845.0448pt on input line 
+84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 1>
+Package pdftex.def Info: education/ppt.pdf , page1 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [31]
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 1>
+Package pdftex.def Info: education/ppt.pdf , page1 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 1>
+Package pdftex.def Info: education/ppt.pdf , page1 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 1>
+Package pdftex.def Info: education/ppt.pdf , page1 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [32 <./education/ppt.pdf>]
+<education/ppt.pdf, id=697, page=2, pagebox=cropbox, 597.50786pt x 845.04686pt>
+
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 2>
+Package pdftex.def Info: education/ppt.pdf , page2 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 2>
+Package pdftex.def Info: education/ppt.pdf , page2 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 2>
+Package pdftex.def Info: education/ppt.pdf , page2 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [33 <./education/ppt.pdf>]
+<education/ppt.pdf, id=791, page=3, pagebox=cropbox, 597.50786pt x 845.04686pt>
+
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 3>
+Package pdftex.def Info: education/ppt.pdf , page3 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 3>
+Package pdftex.def Info: education/ppt.pdf , page3 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 3>
+Package pdftex.def Info: education/ppt.pdf , page3 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [34 <./education/ppt.pdf>]
+<education/ppt.pdf, id=850, page=4, pagebox=cropbox, 597.50786pt x 845.04686pt>
+
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 4>
+Package pdftex.def Info: education/ppt.pdf , page4 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 4>
+Package pdftex.def Info: education/ppt.pdf , page4 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 4>
+Package pdftex.def Info: education/ppt.pdf , page4 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [35 <./education/ppt.pdf>]
+<education/ppt.pdf, id=897, page=5, pagebox=cropbox, 597.50786pt x 845.04686pt>
+
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 5>
+Package pdftex.def Info: education/ppt.pdf , page5 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 5>
+Package pdftex.def Info: education/ppt.pdf , page5 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 5>
+Package pdftex.def Info: education/ppt.pdf , page5 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [36 <./education/ppt.pdf>]
+<education/ppt.pdf, id=951, page=6, pagebox=cropbox, 597.50786pt x 845.04686pt>
+
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 6>
+Package pdftex.def Info: education/ppt.pdf , page6 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 6>
+Package pdftex.def Info: education/ppt.pdf , page6 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 6>
+Package pdftex.def Info: education/ppt.pdf , page6 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [37 <./education/ppt.pdf>]
+<education/ppt.pdf, id=1007, page=7, pagebox=cropbox, 597.50786pt x 845.04686pt
+>
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 7>
+Package pdftex.def Info: education/ppt.pdf , page7 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 7>
+Package pdftex.def Info: education/ppt.pdf , page7 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 7>
+Package pdftex.def Info: education/ppt.pdf , page7 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [38 <./education/ppt.pdf>]
+<education/ppt.pdf, id=1062, page=8, pagebox=cropbox, 597.50786pt x 845.04686pt
+>
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 8>
+Package pdftex.def Info: education/ppt.pdf , page8 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 8>
+Package pdftex.def Info: education/ppt.pdf , page8 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+File: education/ppt.pdf Graphic file (type pdf)
+<use education/ppt.pdf, page 8>
+Package pdftex.def Info: education/ppt.pdf , page8 used on input line 84. on in
+put line 84.
+Package pdftex.def Info: Requested size: 562.12244pt x 795.00179pt on input lin
+e 84.
+ [39 <./education/ppt.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 87.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 87.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 73.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 73.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 87.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 87.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 20515B84045C144B36A4FEA090690D2D;1643.
+(rerunfilecheck)             Checksum: DB29C88B3ECFF48C99566D17B352A820;1859.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 73.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 87.
  )
-(\end occurred inside a group at level 8)
+(\end occurred inside a group at level 9)
 
-### semi simple group (level 8) entered at line 72 (\begingroup)
-### semi simple group (level 7) entered at line 68 (\begingroup)
-### semi simple group (level 6) entered at line 64 (\begingroup)
-### semi simple group (level 5) entered at line 60 (\begingroup)
-### semi simple group (level 4) entered at line 53 (\begingroup)
-### semi simple group (level 3) entered at line 49 (\begingroup)
-### semi simple group (level 2) entered at line 45 (\begingroup)
-### semi simple group (level 1) entered at line 41 (\begingroup)
+### semi simple group (level 9) entered at line 80 (\begingroup)
+### semi simple group (level 8) entered at line 76 (\begingroup)
+### semi simple group (level 7) entered at line 72 (\begingroup)
+### semi simple group (level 6) entered at line 68 (\begingroup)
+### semi simple group (level 5) entered at line 61 (\begingroup)
+### semi simple group (level 4) entered at line 57 (\begingroup)
+### semi simple group (level 3) entered at line 53 (\begingroup)
+### semi simple group (level 2) entered at line 49 (\begingroup)
+### semi simple group (level 1) entered at line 45 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 9078 strings out of 492985
- 140886 string characters out of 6132585
- 232984 words of memory out of 5000000
- 12178 multiletter control sequences out of 15000+600000
- 46925 words of font info for 106 fonts, out of 8000000 for 9000
+ 10472 strings out of 492985
+ 160947 string characters out of 6132585
+ 260234 words of memory out of 5000000
+ 13503 multiletter control sequences out of 15000+600000
+ 47031 words of font info for 107 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,7n,40p,1665b,1104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,18n,46p,1665b,1174s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
-ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
-w/times/utmri8a.pfb>
-Output written on main.pdf (27 pages, 1889172 bytes).
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on main.pdf (39 pages, 7374610 bytes).
 PDF statistics:
- 682 PDF objects out of 1000 (max. 8388607)
- 618 compressed objects within 7 object streams
- 294 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1223 PDF objects out of 1440 (max. 8388607)
+ 977 compressed objects within 10 object streams
+ 313 named destinations out of 1000 (max. 500000)
+ 335 words of extra memory for PDF output out of 10000 (max. 10000000)
 

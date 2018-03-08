@@ -9,6 +9,10 @@
 \usepackage{hyperref}
 \usepackage{subcaption}
 \usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}\usepackage[final]{pdfpages}
+\useunder{\uline}{\ul}{}
 \DeclarePairedDelimiter\ceil{\lceil}{\rceil}
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
 
@@ -52,6 +56,10 @@
 \input{simulation/Simulation.tex}
 \spacing{1.2}
 
+\clearpage
+\input{education/education.tex}
+\spacing{1.2}
+
 \bibliographystyle{IEEEtran}
 \bibliography{bibliography.bib}
 
@@ -70,4 +78,10 @@
 \clearpage
 \input{AppendixD:01-02-18.tex}
 \spacing{1.2}
-\end{document}  
+
+\vspace{\fill}
+\section{Appendix E: Powerpoint used in educational outreach}
+\includepdf[pages=-]{education/ppt.pdf}
+
+
+\end{document}

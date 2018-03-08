@@ -18,8 +18,11 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-E}}Theoretical motion of the particle}{12}{subsection.4.5}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-F}}Modelling assumptions and simulation mechanics}{14}{subsection.4.6}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-G}}Simulation in the high- and low-memory regimes}{15}{subsection.4.7}
-\contentsline {section}{References}{17}{section*.9}
-\contentsline {section}{\numberline {V}Appendix A: Minutes 11/1/18}{18}{section.5}
-\contentsline {section}{\numberline {VI}Appendix B: Minutes 18/1/18}{21}{section.6}
-\contentsline {section}{\numberline {VII}Appendix C: Minutes 25/1/18}{24}{section.7}
-\contentsline {section}{\numberline {VIII}Appendix D: Minutes 01/2/18}{26}{section.8}
+\contentsline {section}{\numberline {V}Education and outreach efforts}{18}{section.5}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Lesson Plan}{19}{subsection.5.1}
+\contentsline {section}{References}{21}{section*.10}
+\contentsline {section}{\numberline {VI}Appendix A: Minutes 11/1/18}{22}{section.6}
+\contentsline {section}{\numberline {VII}Appendix B: Minutes 18/1/18}{25}{section.7}
+\contentsline {section}{\numberline {VIII}Appendix C: Minutes 25/1/18}{28}{section.8}
+\contentsline {section}{\numberline {IX}Appendix D: Minutes 01/2/18}{30}{section.9}
+\contentsline {section}{\numberline {X}Appendix E: Powerpoint used in educational outreach}{31}{section.10}
