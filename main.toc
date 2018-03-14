@@ -3,8 +3,7 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-B}}Budget}{8}{subsection.1.2}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-C}}Communication and Administration}{8}{subsection.1.3}
 \contentsline {section}{\numberline {II}Introduction (MM)}{10}{section.2}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Aims}{10}{subsection.2.1}
-\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Objectives}{10}{subsection.2.2}
+\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Objectives}{10}{subsection.2.1}
 \contentsline {section}{\numberline {III}Theory (MM, AS)}{12}{section.3}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {III-A}}Droplet motion}{12}{subsection.3.1}
 \contentsline {section}{\numberline {IV}Experimental Method (SV, KF, BB)}{15}{section.4}
@@ -52,27 +51,27 @@
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VII-G}}Monitoring and Evaluation}{58}{subsection.7.7}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {VII-H}}Justification of Resources}{58}{subsection.7.8}
 \contentsline {section}{\numberline {VIII}Conclusion}{59}{section.8}
-\contentsline {section}{References}{61}{section*.48}
-\contentsline {section}{Appendix\nobreakspace A: Minutes 11/1/18}{62}{section*.49}
-\contentsline {section}{Appendix\nobreakspace B: Minutes 18/1/18}{65}{section*.50}
-\contentsline {section}{Appendix\nobreakspace C: Minutes 25/1/18}{68}{section*.51}
-\contentsline {section}{Appendix\nobreakspace D: Minutes 01/2/18}{70}{section*.52}
-\contentsline {section}{Appendix\nobreakspace E: Minutes 08/2/18}{72}{section*.53}
-\contentsline {section}{Appendix\nobreakspace F: Minutes 19/2/18}{75}{section*.54}
-\contentsline {section}{Appendix\nobreakspace G: Minutes 27/2/18}{77}{section*.55}
-\contentsline {section}{Appendix\nobreakspace H: Minutes 08/03/18}{79}{section*.56}
-\contentsline {section}{Appendix\nobreakspace I: Lab Script}{81}{section*.57}
+\contentsline {section}{References}{61}{section*.47}
+\contentsline {section}{Appendix\nobreakspace A: Minutes 11/1/18}{62}{section*.48}
+\contentsline {section}{Appendix\nobreakspace B: Minutes 18/1/18}{65}{section*.49}
+\contentsline {section}{Appendix\nobreakspace C: Minutes 25/1/18}{68}{section*.50}
+\contentsline {section}{Appendix\nobreakspace D: Minutes 01/2/18}{70}{section*.51}
+\contentsline {section}{Appendix\nobreakspace E: Minutes 08/2/18}{72}{section*.52}
+\contentsline {section}{Appendix\nobreakspace F: Minutes 19/2/18}{75}{section*.53}
+\contentsline {section}{Appendix\nobreakspace G: Minutes 27/2/18}{77}{section*.54}
+\contentsline {section}{Appendix\nobreakspace H: Minutes 08/03/18}{79}{section*.55}
+\contentsline {section}{Appendix\nobreakspace I: Lab Script}{81}{section*.56}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-A}}Introduction}{82}{subsection.Appendix.I.1}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-B}}Theory}{82}{subsection.Appendix.I.2}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-C}}Apparatus}{82}{subsection.Appendix.I.3}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-D}}Assembly Procedure}{83}{subsection.Appendix.I.4}
 \contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {I-E}}Experimental Methods}{84}{subsection.Appendix.I.5}
-\contentsline {section}{Appendix\nobreakspace J: Risk Assessment}{87}{section*.62}
-\contentsline {section}{Appendix\nobreakspace K: Experimental Log 24-1}{88}{section*.63}
-\contentsline {section}{Appendix\nobreakspace L: Experimental Log 31-1}{90}{section*.64}
-\contentsline {section}{Appendix\nobreakspace M: Experimental Log 9-2}{92}{section*.65}
-\contentsline {section}{Appendix\nobreakspace N: Experimental Log 14-2}{94}{section*.66}
-\contentsline {section}{Appendix\nobreakspace O: Experimental Log 15-2}{96}{section*.67}
-\contentsline {section}{Appendix\nobreakspace P: Experimental Log 16-2}{98}{section*.68}
-\contentsline {section}{Appendix\nobreakspace Q: Experimental Log 21-2}{100}{section*.69}
-\contentsline {section}{Appendix\nobreakspace R: PowerPoint used in Educational Outreach}{101}{section*.70}
+\contentsline {section}{Appendix\nobreakspace J: Risk Assessment}{87}{section*.61}
+\contentsline {section}{Appendix\nobreakspace K: Experimental Log 24-1}{88}{section*.62}
+\contentsline {section}{Appendix\nobreakspace L: Experimental Log 31-1}{90}{section*.63}
+\contentsline {section}{Appendix\nobreakspace M: Experimental Log 9-2}{92}{section*.64}
+\contentsline {section}{Appendix\nobreakspace N: Experimental Log 14-2}{94}{section*.65}
+\contentsline {section}{Appendix\nobreakspace O: Experimental Log 15-2}{96}{section*.66}
+\contentsline {section}{Appendix\nobreakspace P: Experimental Log 16-2}{98}{section*.67}
+\contentsline {section}{Appendix\nobreakspace Q: Experimental Log 21-2}{100}{section*.68}
+\contentsline {section}{Appendix\nobreakspace R: PowerPoint used in Educational Outreach}{101}{section*.69}
