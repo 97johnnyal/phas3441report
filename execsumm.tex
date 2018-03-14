@@ -1,0 +1,43 @@
+\section*{Executive Summary}
+Our group was tasked with constructing an affordable table-top bouncing oil drop experiment and to use it to demonstrate some of the features of quantum mechanics. The experimental demonstration could be augmented with a computer suitable simulation of more advanced quantum features. The simulation could then be enhanced by some form of automated statistical analysis of the bouncing oil drops. The direction for our project was left open-ended and up to our discretion. We hence decided to split the group into two subgroups, one focused on constructing a prototype of the table-top experiment (the prototype group), and another to develop the computer suitable simulation (the simulation group). Each group was left to independently identify their own measures of success and plan their own workstreams around them.
+
+\subsection*{The Prototype Group}
+The prototype group was tasked to focus on developing the table-top experiment. The main measures of success identified for the prototype group was:
+\begin{enumerate}
+    \item The setup of the experiment should be affordable and easily replicable.
+\item The experiment should be able to exhibit quantum phenomena including tunnelling and diffraction.
+\item The experiment should be an effective teaching tool that is simple and easy to use.
+\end{enumerate}
+
+Inspiration for our setup was drawn from the apparatus used in the Veritasium video \cite{Veritasium:2016} and the paper on which it was based. The general idea behind the setup was to produce bouncing oil droplets in a petri dish, containing silicone oil, driven by a loud speaker. The behaviour of these bouncing oil drops can then be used to demonstrate quantum effects by varying the static depth of oil at each part of the petri dish.
+
+Due to variations in circumstances during experimental procedure, novel adaptations in equipment and methodology was introduced. This includes the powering the speaker with a Hi-Fi amplifier and replacing silicone oil with diluted washing up liquid. These changes improved visibility, bouncing amplitude and manipulability of the droplets produced. Using diluted washing up liquid instead of silicon oil also significantly reduced the cost or replicating this experiment. The housing for the setup was designed such that it could easily assembled from pieces of predefined laser cut wood ensuring easy replicability.  
+
+Footage of the oscillating droplets was captured using a 1000 fps ultra-high-speed camera. By analysing this footage using Adobe After Effects, we were able to clearly visualise the ripples and interactions of the droplets and track their movement. By fitting a sinusoidal wave to the vertical displacement of the droplet, we were able to show that the droplet indeed exhibited simple harmonic motion. 
+
+While our prototype succeeded in observing bouncing droplets, we faced setbacks in trying to demonstrate quantum phenomena as well as quantifying our data. This was attributed to time restrictions as well as the numerous variables unaccounted for such as temperature and droplet size. We have proposed modifications in methodology and setup for future experiments to demonstrate quantum phenomena as well as control some of the unaccounted-for variables.
+
+Demonstrations to a class of year 12 students, that were hoping to study STEM subjects in higher education, provided optimistic responses on the efficacy of our prototype as a teaching tool. Students participating in our demonstrations felt more engaged and curious while displaying better understanding of QM. Teachers present at the demonstration also gave positive feedback on the experiment. 
+We have also planned future extensions for what was accomplished by this subgroup. First, we would like to produce an educational report aimed at winning an award by the STFC for small projects. Next, we would also like to create an apparatus that could demonstrate quantum phenomena better. To account for the probabilistic nature of QM, future setups will need to be able to repeat trials of the same system parameters over an extended period of time.
+
+\subsection*{The Simulation Group}
+The simulation group was tasked to focus on developing the computer suitable simulation. The main measures of success identified for the simulation group was:
+
+\begin{enumerate}
+    \item The simulation should operate on an interactive, simple graphics user interface (GUI).
+    \item The simulation should be able to display demonstrations of bouncing
+droplets live.
+    \item The simulation should be able to take in any system parameter.
+\item The simulation should be able to demonstrate quantum phenomena and perform statistical analysis of the bouncing droplet. 
+\end{enumerate}
+
+Inspiration for our simulations was drawn from the work by the DotWave group \cite{dotwave}. Code used in the video simulations published by the DotWave group are not publicly accessible. Hence, it was necessary for us to build the simulation from scratch. The general idea behind the computer suitable simulation was to have it be performed by a program with the entire mathematical model hard coded in. The program would hence only require system parameters and start condition input to perform and display the simulation.
+In our simulations, mathematical models published by \cite{oza2013trajectory} and \cite{brady2014bouncing} along with a few simplifying assumptions were used. Initial tests were conducted on the mathematical models in python, Matlab and java. While python and Matlab had native modules to display graphical data in 3-D, the calculation rates were too slow to be suitable for live demonstrations. Java, however, proved to be extremely efficient at performing calculations but slow in generating and displaying frames. 
+
+Attempts to exploit the efficient processing power of java and the native display modules of Matlab was done by interfacing the two programming languages. Failure to produce such an interface was due to our lack of computing expertise. It was thus concluded that we did not possess sufficient expertise and processing power to produce a program that could display the simulations live.
+
+Java, being the most efficient and flexible programming language tested, was used in further developments. The video visualising each simulation was produced by using the java code to output each frame as a png file and stitching them together using a third-party software. The java code also outputs the position and velocity data of the droplets simulated at each timestep into a csv file. The data collected was later used for further analysis. System parameters in all simulations performed were hard coded using values provided by the DotWave group. A simple modification to the java files would enable it to accept any input values as system parameters.
+
+Simulations at various memory values were conducted. The results of the simulation match the theoretical prediction that the simulated bouncing droplet would only enter the walking state in the high memory regime. This provided evidence that support the validity of the mathematical model and its accompanying simplifying assumptions used in our program.
+
+Preliminary tests were conducted to simulate the effect of two droplets initiated next to each other and the behaviour of the droplet upon introduction of a fully reflective wall. Due to time constraints we were unable to develop the code further to demonstrate quantum phenomena nor perform statistical analysis of the bouncing droplet. 

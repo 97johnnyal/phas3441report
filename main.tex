@@ -1,37 +1,41 @@
-%Document styles, font text, sizes
-\documentclass[12pt, journal, transmag, onecolumn]{IEEEtran}   	% use "amsart" instead of "article" for AMSLaTeX format
-
-%LaTeX packages to be used:
-\usepackage{graphicx}				
+\documentclass[12pt, journal, transmag, onecolumn]{IEEEtran}
+\usepackage{graphicx}	
+\usepackage{tabu}
 \usepackage{blindtext}
 \usepackage{amssymb}
 \usepackage{setspace}
 \usepackage{hyperref}
 \usepackage{subcaption}
 \usepackage{mathtools}
-\usepackage{multirow}
 \usepackage{tabularx}
-\usepackage[normalem]{ulem}\usepackage[final]{pdfpages}
+\usepackage{todonotes}
+\usepackage{wrapfig}
+\usepackage{gensymb}
+\usepackage[normalem]{ulem}
+\usepackage[final]{pdfpages}
 \useunder{\uline}{\ul}{}
 \DeclarePairedDelimiter\ceil{\lceil}{\rceil}
 \DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\usepackage{multirow}
 
-
-
-
-%Document begins here. Separate sections are written in separate .tex files and inputted into the main .tex file
 \begin{document}
+
+
+\listoftodos
+\clearpage
+\spacing{1.2}
+
 \title{Cost Effective Demonstration of Wave-Particle\\ Duality on a Table Top}
-\author{\IEEEauthorblockN{Johnny Allain-Labon, Chong Keat Gea, Steven Vuong, Georges Ajaka, \\Benji Berczi, Kelvin Fang, Alex Stock, Mohit Motwani}
-\IEEEauthorblockA{11/1/18, Lab 1, Department of Physics and Astronomy, University College London, London WC1E 6BT
-\\Board member: Professor Ryan Nichol}%
+\author{\IEEEauthorblockN{Johnny Allain-Labon (JAL), Chong Keat Gea (CKG), Steven Vuong (SV), Georges Ajaka (GA), \\Benji Berczi (BB), Kelvin Fang (KF), Alex Stock (AS), Mohit Motwani (MM)}
+\IEEEauthorblockA{Department of Physics and Astronomy, University College London, London WC1E 6BT
+\\Board member: Professor Ryan Nichol}
 }
 
 
-\IEEEtitleabstractindextext{%
+\IEEEtitleabstractindextext{
 \begin{abstract}
 
-\blindtext
+A prototype apparatus for demonstrating quantum phenomena on a macroscopic scale has been developed, for use in conjunction with a computer simulation as an educational aid at school and undergraduate level. The apparatus consists of a vibrating liquid surface on which droplets are created. At certain frequencies of vibration, these droplets can bounce or walk, and multiple droplets can demonstrate quantum effects such as diffraction. A simulation demonstrates this happening on the scale of individual droplets, and shows the wavefield created on the surface which causes these effects. This report provides an outline of work done over the course of this project, including documentation of the prototype and simulation progress, and evaluation of preliminary educational outreach efforts.
 
 \end{abstract}
 }
@@ -39,49 +43,121 @@
 % make the title area
 \maketitle
 \clearpage
-\tableofcontents
+\shipout\null
+
+
+\input{execsumm.tex}
+\clearpage
 
 \clearpage
-\spacing{1.2}
+\setcounter{tocdepth}{2}
+
+\tableofcontents
+\clearpage
+
+\input{meetings/GroupLogistics.tex}
+\clearpage
+
 \input{Introduction.tex}
+\clearpage
 
 \input{theory/Theory.tex}
-\spacing{1.2}
-
 \clearpage
-\input{prototype/InitialApparatus.tex}
-\spacing{1.2}
+
+\input{prototype/experimentalmethod.tex}
 
 \clearpage
 \input{simulation/Simulation.tex}
-\spacing{1.2}
 
 \clearpage
-\input{education/education.tex}
-\spacing{1.2}
 
+\input{education/education.tex}
+
+\clearpage
+\input{education/STFCproposal/STFCProposal.tex}
+
+\clearpage
 \bibliographystyle{IEEEtran}
 \bibliography{bibliography.bib}
+\clearpage
+
+
+\begin{appendices}
+
+\input{meetings/11-1.tex}
 
 \clearpage
-\input{AppendixA:11-1-18.tex}
-\spacing{1.2}
+\input{meetings/18-1.tex}
 
 \clearpage
-\input{AppendixB:18-1-18.tex}
-\spacing{1.2}
+\input{meetings/25-1.tex}
 
 \clearpage
-\input{AppendixC:25-01-18.tex}
-\spacing{1.2}
+\input{meetings/1-2.tex}
+
 
 \clearpage
-\input{AppendixD:01-02-18.tex}
-\spacing{1.2}
-
-\vspace{\fill}
-\section{Appendix E: Powerpoint used in educational outreach}
-\includepdf[pages=-]{education/ppt.pdf}
+\input{meetings/8-2.tex}
 
 
+\clearpage
+\input{meetings/19-2.tex}
+
+
+\clearpage
+\input{meetings/27-2.tex}
+
+
+\clearpage
+\input{meetings/8-3.tex}
+
+
+\clearpage
+\input{prototype/Labscriptv4.tex}
+
+
+
+\section{Risk Assessment}
+\includegraphics[width=\textwidth]{prototype/riskassessment.pdf}
+\clearpage
+
+\input{prototype/LabLogs/log_24-1.tex}
+
+
+\clearpage
+\input{prototype/LabLogs/log_31-1.tex}
+
+
+\clearpage
+\input{prototype/LabLogs/log_9-2.tex}
+
+
+
+\clearpage
+\input{prototype/LabLogs/log_14-2.tex}
+
+
+
+\clearpage
+\input{prototype/LabLogs/log_15-2.tex}
+
+
+
+\clearpage
+\input{prototype/LabLogs/log_16-2.tex}
+
+
+
+\clearpage
+\input{prototype/LabLogs/log_21-2.tex}
+
+
+\clearpage
+\input{education/ppt.tex}
+
+\clearpage
+\section{Extended Experimental Report}
+\includegraphics[width=\textwidth]{CollatedReport.pdf}
+
+\end{appendices}
 \end{document}
