@@ -11,49 +11,46 @@ Database file #1: bibliography.bib.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-Name 3 in "Yves Couder and Suzie Proti{\`e}re and Emmanuel Fort, and Arezki Boudaoud" has a comma at the end for entry couder
-while executing---line 2403 of file IEEEtran.bst
 
 Done.
-You've used 5 entries,
+You've used 12 entries,
             4087 wiz_defined-function locations,
-            855 strings with 8114 characters,
-and the built_in function-call counts, 3188 in all, are:
-= -- 265
-> -- 62
-< -- 21
-+ -- 34
-- -- 11
-* -- 153
-:= -- 527
-add.period$ -- 11
-call.type$ -- 5
-change.case$ -- 6
-chr.to.int$ -- 45
-cite$ -- 5
-duplicate$ -- 236
-empty$ -- 242
-format.name$ -- 14
-if$ -- 715
+            897 strings with 9200 characters,
+and the built_in function-call counts, 7420 in all, are:
+= -- 614
+> -- 158
+< -- 49
++ -- 85
+- -- 29
+* -- 327
+:= -- 1213
+add.period$ -- 29
+call.type$ -- 12
+change.case$ -- 17
+chr.to.int$ -- 108
+cite$ -- 12
+duplicate$ -- 543
+empty$ -- 572
+format.name$ -- 35
+if$ -- 1680
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 40
-newline$ -- 40
-num.names$ -- 5
-pop$ -- 91
+int.to.str$ -- 12
+missing$ -- 105
+newline$ -- 69
+num.names$ -- 12
+pop$ -- 254
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 247
+skip$ -- 568
 stack$ -- 0
-substring$ -- 117
-swap$ -- 182
-text.length$ -- 6
+substring$ -- 274
+swap$ -- 421
+text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 5
+type$ -- 12
 warning$ -- 0
-while$ -- 13
-width$ -- 6
-write$ -- 71
-(There was 1 error message)
+while$ -- 32
+width$ -- 14
+write$ -- 143
