@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  14 MAR 2018 15:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.11.26)  14 MAR 2018 16:25
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -965,123 +965,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/m/ui' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/ui' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 45.
 
-[8]) [9] (./introduction.tex
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 5.
-
-Overfull \hbox (17.6238pt too wide) in paragraph at lines 5--5
-[][][][]\OT1/ptm/m/n/12 check 
- []
-
-
-Overfull \hbox (4.96375pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 see 
- []
-
-
-Overfull \hbox (28.96342pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 matches 
- []
-
-
-Overfull \hbox (13.63972pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 sum- 
- []
-
-
-Overfull \hbox (14.29977pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 mary  
- []
-
-
-Overfull \hbox (17.6238pt too wide) in paragraph at lines 5--5
-[][][][]\OT1/ptm/m/n/12 check 
- []
-
-
-Overfull \hbox (4.96375pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 see 
- []
-
-
-Overfull \hbox (28.96342pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 matches 
- []
-
-
-Overfull \hbox (13.63972pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 sum- 
- []
-
-
-Overfull \hbox (14.29977pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 mary  
- []
-
-
-Overfull \hbox (17.6238pt too wide) in paragraph at lines 5--5
-[][][][]\OT1/ptm/m/n/12 check 
- []
-
-
-Overfull \hbox (4.96375pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 see 
- []
-
-
-Overfull \hbox (28.96342pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 matches 
- []
-
-
-Overfull \hbox (13.63972pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 sum- 
- []
-
-
-Overfull \hbox (14.29977pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 mary  
- []
-
-
-Overfull \hbox (17.6238pt too wide) in paragraph at lines 5--5
-[][][][]\OT1/ptm/m/n/12 check 
- []
-
-
-Overfull \hbox (4.96375pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 see 
- []
-
-
-Overfull \hbox (28.96342pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 matches 
- []
-
-
-Overfull \hbox (13.63972pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 sum- 
- []
-
-
-Overfull \hbox (14.29977pt too wide) in paragraph at lines 5--5
-\OT1/ptm/m/n/12 mary  
- []
-
-[10
+[8]) [9] (./introduction.tex [10
 
 ]) [11] (./theory/Theory.tex
-<theory/regime.png, id=455, 624.83438pt x 436.63126pt>
+<theory/regime.png, id=444, 624.83438pt x 436.63126pt>
 File: theory/regime.png Graphic file (type png)
 <use theory/regime.png>
 Package pdftex.def Info: theory/regime.png  used on input line 19. on input lin
 e 19.
 Package pdftex.def Info: Requested size: 341.43306pt x 238.59558pt on input lin
 e 19.
-<theory/walkingDroplet.png, id=457, 836.3747pt x 414.79968pt>
+<theory/walkingDroplet.png, id=446, 836.3747pt x 414.79968pt>
 File: theory/walkingDroplet.png Graphic file (type png)
 <use theory/walkingDroplet.png>
 Package pdftex.def Info: theory/walkingDroplet.png  used on input line 29. on i
@@ -1090,11 +984,11 @@ Package pdftex.def Info: Requested size: 341.43306pt x 169.33476pt on input lin
 e 29.
  [12
 
-] [13 <./theory/regime.png> <./theory/walkingDroplet.png>]) [14] (./prototype/e
-xperimentalmethod.tex [15
+] [13 <./theory/regime.png> <./theory/walkingDroplet.png>]) [14]
+(./prototype/experimentalmethod.tex [15
 
 ] [16]
-<prototype/exp_rep_imgs/speakerPackaging.jpg, id=526, 2987.16pt x 1924.18875pt>
+<prototype/exp_rep_imgs/speakerPackaging.jpg, id=515, 2987.16pt x 1924.18875pt>
 
 File: prototype/exp_rep_imgs/speakerPackaging.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/speakerPackaging.jpg>
@@ -1102,7 +996,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/speakerPackaging.jpg  used on i
 nput line 137. on input line 137.
 Package pdftex.def Info: Requested size: 258.0pt x 166.18166pt on input line 13
 7.
-<prototype/exp_rep_imgs/Speaker.jpg, id=527, 3104.59875pt x 1999.47pt>
+<prototype/exp_rep_imgs/Speaker.jpg, id=516, 3104.59875pt x 1999.47pt>
 File: prototype/exp_rep_imgs/Speaker.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/Speaker.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/Speaker.jpg  used on input line
@@ -1114,14 +1008,14 @@ Overfull \hbox (2.75995pt too wide) in paragraph at lines 135--145
 []$[]$ $[]$ 
  []
 
-<prototype/exp_rep_imgs/LEGIANT_amp.jpg, id=528, 4047.12pt x 3035.34pt>
+<prototype/exp_rep_imgs/LEGIANT_amp.jpg, id=517, 4047.12pt x 3035.34pt>
 File: prototype/exp_rep_imgs/LEGIANT_amp.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/LEGIANT_amp.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/LEGIANT_amp.jpg  used on input 
 line 152. on input line 152.
 Package pdftex.def Info: Requested size: 258.0pt x 193.45984pt on input line 15
 2.
-<prototype/exp_rep_imgs/amp_controls.jpg, id=529, 3606.47375pt x 1277.77374pt>
+<prototype/exp_rep_imgs/amp_controls.jpg, id=518, 3606.47375pt x 1277.77374pt>
 File: prototype/exp_rep_imgs/amp_controls.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/amp_controls.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/amp_controls.jpg  used on input
@@ -1133,14 +1027,14 @@ Overfull \hbox (2.75995pt too wide) in paragraph at lines 150--160
 []$[]$ $[]$ 
  []
 
-<prototype/exp_rep_imgs/petriDish.jpg, id=530, 1066.98625pt x 1125.20375pt>
+<prototype/exp_rep_imgs/petriDish.jpg, id=519, 1066.98625pt x 1125.20375pt>
 File: prototype/exp_rep_imgs/petriDish.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/petriDish.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/petriDish.jpg  used on input li
 ne 165. on input line 165.
 Package pdftex.def Info: Requested size: 341.43306pt x 360.05539pt on input lin
 e 165.
-<prototype/exp_rep_imgs/DropletCreators.jpg, id=531, 2993.1825pt x 2570.60374pt
+<prototype/exp_rep_imgs/DropletCreators.jpg, id=520, 2993.1825pt x 2570.60374pt
 >
 File: prototype/exp_rep_imgs/DropletCreators.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/DropletCreators.jpg>
@@ -1148,14 +1042,14 @@ Package pdftex.def Info: prototype/exp_rep_imgs/DropletCreators.jpg  used on in
 put line 173. on input line 173.
 Package pdftex.def Info: Requested size: 341.43306pt x 293.20093pt on input lin
 e 173.
-<prototype/exp_rep_imgs/griffinsSigGen.jpg, id=532, 5331.92pt x 2104.86375pt>
+<prototype/exp_rep_imgs/griffinsSigGen.jpg, id=521, 5331.92pt x 2104.86375pt>
 File: prototype/exp_rep_imgs/griffinsSigGen.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/griffinsSigGen.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/griffinsSigGen.jpg  used on inp
 ut line 181. on input line 181.
 Package pdftex.def Info: Requested size: 341.43306pt x 134.76541pt on input lin
 e 181.
-<prototype/exp_rep_imgs/PhotronHighSpeedCamera.jpg, id=533, 1916.15875pt x 1161
+<prototype/exp_rep_imgs/PhotronHighSpeedCamera.jpg, id=522, 1916.15875pt x 1161
 .33875pt>
 File: prototype/exp_rep_imgs/PhotronHighSpeedCamera.jpg Graphic file (type jpg)
 
@@ -1164,7 +1058,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/PhotronHighSpeedCamera.jpg  use
 d on input line 189. on input line 189.
 Package pdftex.def Info: Requested size: 341.43306pt x 206.9232pt on input line
  189.
-<prototype/exp_rep_imgs/PhotronLighting.jpg, id=534, 4038.08624pt x 1213.53375p
+<prototype/exp_rep_imgs/PhotronLighting.jpg, id=523, 4038.08624pt x 1213.53375p
 t>
 File: prototype/exp_rep_imgs/PhotronLighting.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/PhotronLighting.jpg>
@@ -1174,7 +1068,7 @@ Package pdftex.def Info: Requested size: 341.43306pt x 102.60275pt on input lin
 e 197.
 [17 <./prototype/exp_rep_imgs/speakerPackaging.jpg> <./prototype/exp_rep_imgs/S
 peaker.jpg>]
-<prototype/exp_rep_imgs/Blueprint.png, id=544, 1144.275pt x 522.15076pt>
+<prototype/exp_rep_imgs/Blueprint.png, id=533, 1144.275pt x 522.15076pt>
 File: prototype/exp_rep_imgs/Blueprint.png Graphic file (type png)
 <use prototype/exp_rep_imgs/Blueprint.png>
 Package pdftex.def Info: prototype/exp_rep_imgs/Blueprint.png  used on input li
@@ -1183,7 +1077,7 @@ Package pdftex.def Info: Requested size: 516.0pt x 235.45964pt on input line 22
 3.
  [18 <./prototype/exp_rep_imgs/LEGIANT_amp.jpg> <./prototype/exp_rep_imgs/amp_c
 ontrols.jpg>]
-<prototype/exp_rep_imgs/boxAssembly.jpg, id=556, 2435.0975pt x 2736.2225pt>
+<prototype/exp_rep_imgs/boxAssembly.jpg, id=545, 2435.0975pt x 2736.2225pt>
 File: prototype/exp_rep_imgs/boxAssembly.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/boxAssembly.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/boxAssembly.jpg  used on input 
@@ -1194,7 +1088,7 @@ Package pdftex.def Info: Requested size: 258.0pt x 289.87955pt on input line 23
 [20 <./prototype/exp_rep_imgs/DropletCreators.jpg> <./prototype/exp_rep_imgs/gr
 iffinsSigGen.jpg>] [21 <./prototype/exp_rep_imgs/PhotronHighSpeedCamera.jpg> <.
 /prototype/exp_rep_imgs/PhotronLighting.jpg>]
-<prototype/exp_rep_imgs/exp_setup_sideshot.jpg, id=571, 3074.48625pt x 2832.582
+<prototype/exp_rep_imgs/exp_setup_sideshot.jpg, id=560, 3074.48625pt x 2832.582
 5pt>
 File: prototype/exp_rep_imgs/exp_setup_sideshot.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/exp_setup_sideshot.jpg>
@@ -1204,7 +1098,7 @@ Package pdftex.def Info: Requested size: 258.0pt x 237.67598pt on input line 26
 6.
  [22 <./prototype/exp_rep_imgs/Blueprint.png>] [23 <./prototype/exp_rep_imgs/bo
 xAssembly.jpg>]
-<prototype/exp_rep_imgs/closeup_slowmo_setup.jpg, id=582, 2059.695pt x 2043.635
+<prototype/exp_rep_imgs/closeup_slowmo_setup.jpg, id=571, 2059.695pt x 2043.635
 pt>
 File: prototype/exp_rep_imgs/closeup_slowmo_setup.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/closeup_slowmo_setup.jpg>
@@ -1212,7 +1106,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/closeup_slowmo_setup.jpg  used
 on input line 295. on input line 295.
 Package pdftex.def Info: Requested size: 245.10315pt x 243.16753pt on input lin
 e 295.
-<prototype/exp_rep_imgs/slowmo_setup.jpg, id=583, 2775.36874pt x 2767.33875pt>
+<prototype/exp_rep_imgs/slowmo_setup.jpg, id=572, 2775.36874pt x 2767.33875pt>
 File: prototype/exp_rep_imgs/slowmo_setup.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/slowmo_setup.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/slowmo_setup.jpg  used on input
@@ -1220,7 +1114,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/slowmo_setup.jpg  used on input
 Package pdftex.def Info: Requested size: 245.10315pt x 244.36264pt on input lin
 e 300.
  [24 <./prototype/exp_rep_imgs/exp_setup_sideshot.jpg>]
-<prototype/exp_rep_imgs/bouncing_refr_glass.jpg, id=594, 803.0pt x 803.0pt>
+<prototype/exp_rep_imgs/bouncing_refr_glass.jpg, id=583, 803.0pt x 803.0pt>
 File: prototype/exp_rep_imgs/bouncing_refr_glass.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/bouncing_refr_glass.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/bouncing_refr_glass.jpg  used o
@@ -1229,7 +1123,7 @@ Package pdftex.def Info: Requested size: 516.0pt x 516.03798pt on input line 32
 0.
  [25 <./prototype/exp_rep_imgs/closeup_slowmo_setup.jpg> <./prototype/exp_rep_i
 mgs/slowmo_setup.jpg>]
-<prototype/exp_rep_imgs/double_slit_setup_1.jpg, id=604, 2734.215pt x 2726.185p
+<prototype/exp_rep_imgs/double_slit_setup_1.jpg, id=592, 2734.215pt x 2726.185p
 t>
 File: prototype/exp_rep_imgs/double_slit_setup_1.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/double_slit_setup_1.jpg>
@@ -1237,7 +1131,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/double_slit_setup_1.jpg  used o
 n input line 342. on input line 342.
 Package pdftex.def Info: Requested size: 245.10315pt x 244.3477pt on input line
  342.
-<prototype/exp_rep_imgs/double_slit_setup_2.jpg, id=605, 2730.2pt x 2724.1775pt
+<prototype/exp_rep_imgs/double_slit_setup_2.jpg, id=593, 2730.2pt x 2724.1775pt
 >
 File: prototype/exp_rep_imgs/double_slit_setup_2.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/double_slit_setup_2.jpg>
@@ -1252,7 +1146,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [26 <./prototype/exp_rep_imgs/bouncing_refr_glass.jpg>] [27 <./prototype/exp_re
 p_imgs/double_slit_setup_1.jpg> <./prototype/exp_rep_imgs/double_slit_setup_2.j
 pg>]
-<prototype/exp_rep_imgs/Faraday_inst_regime.jpg, id=618, 581.17125pt x 200.75pt
+<prototype/exp_rep_imgs/Faraday_inst_regime.jpg, id=607, 581.17125pt x 200.75pt
 >
 File: prototype/exp_rep_imgs/Faraday_inst_regime.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/Faraday_inst_regime.jpg>
@@ -1260,7 +1154,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/Faraday_inst_regime.jpg  used o
 n input line 365. on input line 365.
 Package pdftex.def Info: Requested size: 516.0pt x 178.25032pt on input line 36
 5.
-<prototype/exp_rep_imgs/orbit_droplets_interaction.jpg, id=621, 602.25pt x 200.
+<prototype/exp_rep_imgs/orbit_droplets_interaction.jpg, id=610, 602.25pt x 200.
 75pt>
 File: prototype/exp_rep_imgs/orbit_droplets_interaction.jpg Graphic file (type 
 jpg)
@@ -1269,7 +1163,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/orbit_droplets_interaction.jpg
  used on input line 375. on input line 375.
 Package pdftex.def Info: Requested size: 516.0pt x 172.01672pt on input line 37
 5.
-<prototype/exp_rep_imgs/double_slit_walking_perimeter.jpg, id=622, 1806.75pt x 
+<prototype/exp_rep_imgs/double_slit_walking_perimeter.jpg, id=611, 1806.75pt x 
 1003.75pt>
 File: prototype/exp_rep_imgs/double_slit_walking_perimeter.jpg Graphic file (ty
 pe jpg)
@@ -1278,7 +1172,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/double_slit_walking_perimeter.j
 pg  used on input line 383. on input line 383.
 Package pdftex.def Info: Requested size: 516.0pt x 286.66905pt on input line 38
 3.
-<prototype/exp_rep_imgs/triangular_lattice.jpg, id=625, 490.08093pt x 439.6425p
+<prototype/exp_rep_imgs/triangular_lattice.jpg, id=614, 490.08093pt x 439.6425p
 t>
 File: prototype/exp_rep_imgs/triangular_lattice.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/triangular_lattice.jpg>
@@ -1286,7 +1180,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/triangular_lattice.jpg  used on
  input line 395. on input line 395.
 Package pdftex.def Info: Requested size: 258.0pt x 231.45306pt on input line 39
 5.
-<prototype/exp_rep_imgs/lattice_cluster.jpg, id=626, 653.44125pt x 586.19pt>
+<prototype/exp_rep_imgs/lattice_cluster.jpg, id=615, 653.44125pt x 586.19pt>
 File: prototype/exp_rep_imgs/lattice_cluster.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/lattice_cluster.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/lattice_cluster.jpg  used on in
@@ -1298,7 +1192,7 @@ Overfull \hbox (2.75995pt too wide) in paragraph at lines 393--405
 [][] [] 
  []
 
-<prototype/exp_rep_imgs/red_dye.jpg, id=628, 589.20125pt x 200.75pt>
+<prototype/exp_rep_imgs/red_dye.jpg, id=617, 589.20125pt x 200.75pt>
 File: prototype/exp_rep_imgs/red_dye.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/red_dye.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/red_dye.jpg  used on input line
@@ -1306,7 +1200,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/red_dye.jpg  used on input line
 Package pdftex.def Info: Requested size: 516.0pt x 175.81203pt on input line 41
 3.
 [28 <./prototype/exp_rep_imgs/Faraday_inst_regime.jpg>]
-<prototype/exp_rep_imgs/plastic_slits.jpg, id=639, 2911.87875pt x 2911.87875pt>
+<prototype/exp_rep_imgs/plastic_slits.jpg, id=628, 2911.87875pt x 2911.87875pt>
 
 File: prototype/exp_rep_imgs/plastic_slits.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/plastic_slits.jpg>
@@ -1318,7 +1212,7 @@ Package pdftex.def Info: Requested size: 258.0pt x 257.97008pt on input line 42
 _rep_imgs/double_slit_walking_perimeter.jpg>] [30 <./prototype/exp_rep_imgs/tri
 angular_lattice.jpg> <./prototype/exp_rep_imgs/lattice_cluster.jpg> <./prototyp
 e/exp_rep_imgs/red_dye.jpg>]
-<prototype/exp_rep_imgs/closeup_highspeedcamera.jpg, id=653, 2999.205pt x 2661.
+<prototype/exp_rep_imgs/closeup_highspeedcamera.jpg, id=642, 2999.205pt x 2661.
 945pt>
 File: prototype/exp_rep_imgs/closeup_highspeedcamera.jpg Graphic file (type jpg
 )
@@ -1327,7 +1221,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/closeup_highspeedcamera.jpg  us
 ed on input line 440. on input line 440.
 Package pdftex.def Info: Requested size: 245.10315pt x 217.50916pt on input lin
 e 440.
-<prototype/exp_rep_imgs/software_highspeedcamera.jpg, id=654, 1843.688pt x 1384
+<prototype/exp_rep_imgs/software_highspeedcamera.jpg, id=643, 1843.688pt x 1384
 .372pt>
 File: prototype/exp_rep_imgs/software_highspeedcamera.jpg Graphic file (type jp
 g)
@@ -1336,28 +1230,28 @@ Package pdftex.def Info: prototype/exp_rep_imgs/software_highspeedcamera.jpg  u
 sed on input line 446. on input line 446.
 Package pdftex.def Info: Requested size: 245.10315pt x 184.03044pt on input lin
 e 446.
-<prototype/exp_rep_imgs/highspeed_wave.jpg, id=658, 5139.2pt x 1027.84pt>
+<prototype/exp_rep_imgs/highspeed_wave.jpg, id=647, 5139.2pt x 1027.84pt>
 File: prototype/exp_rep_imgs/highspeed_wave.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/highspeed_wave.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/highspeed_wave.jpg  used on inp
 ut line 463. on input line 463.
 Package pdftex.def Info: Requested size: 516.0pt x 103.19778pt on input line 46
 3.
-<prototype/exp_rep_imgs/highspeed_multiple.jpg, id=659, 5139.2pt x 1027.84pt>
+<prototype/exp_rep_imgs/highspeed_multiple.jpg, id=648, 5139.2pt x 1027.84pt>
 File: prototype/exp_rep_imgs/highspeed_multiple.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/highspeed_multiple.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/highspeed_multiple.jpg  used on
  input line 471. on input line 471.
 Package pdftex.def Info: Requested size: 516.0pt x 103.19778pt on input line 47
 1.
-<prototype/exp_rep_imgs/highspeed_faraday.jpg, id=660, 5139.2pt x 1027.84pt>
+<prototype/exp_rep_imgs/highspeed_faraday.jpg, id=649, 5139.2pt x 1027.84pt>
 File: prototype/exp_rep_imgs/highspeed_faraday.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/highspeed_faraday.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/highspeed_faraday.jpg  used on 
 input line 479. on input line 479.
 Package pdftex.def Info: Requested size: 516.0pt x 103.19778pt on input line 47
 9.
-<prototype/exp_rep_imgs/tracking_droplet.jpg, id=662, 1254.6875pt x 250.9375pt>
+<prototype/exp_rep_imgs/tracking_droplet.jpg, id=651, 1254.6875pt x 250.9375pt>
 
 File: prototype/exp_rep_imgs/tracking_droplet.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/tracking_droplet.jpg>
@@ -1365,7 +1259,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/tracking_droplet.jpg  used on i
 nput line 489. on input line 489.
 Package pdftex.def Info: Requested size: 516.0pt x 103.20284pt on input line 48
 9.
-<prototype/exp_rep_imgs/after_effects_interface.jpg, id=664, 1437.11906pt x 783
+<prototype/exp_rep_imgs/after_effects_interface.jpg, id=653, 1437.11906pt x 783
 .67781pt>
 File: prototype/exp_rep_imgs/after_effects_interface.jpg Graphic file (type jpg
 )
@@ -1374,7 +1268,7 @@ Package pdftex.def Info: prototype/exp_rep_imgs/after_effects_interface.jpg  us
 ed on input line 499. on input line 499.
 Package pdftex.def Info: Requested size: 516.0pt x 281.3824pt on input line 499
 .
-<prototype/exp_rep_imgs/droplet_amplitude_graph.jpg, id=666, 796.47563pt x 575.
+<prototype/exp_rep_imgs/droplet_amplitude_graph.jpg, id=655, 796.47563pt x 575.
 14874pt>
 File: prototype/exp_rep_imgs/droplet_amplitude_graph.jpg Graphic file (type jpg
 )
@@ -1386,7 +1280,7 @@ Package pdftex.def Info: Requested size: 516.0pt x 372.62238pt on input line 50
  [31 <./prototype/exp_rep_imgs/plastic_slits.jpg>] [32 <./prototype/exp_rep_img
 s/closeup_highspeedcamera.jpg> <./prototype/exp_rep_imgs/software_highspeedcame
 ra.jpg> <./prototype/exp_rep_imgs/highspeed_wave.jpg>]
-<prototype/exp_rep_imgs/strange_light.jpg, id=689, 602.25pt x 903.375pt>
+<prototype/exp_rep_imgs/strange_light.jpg, id=678, 602.25pt x 903.375pt>
 File: prototype/exp_rep_imgs/strange_light.jpg Graphic file (type jpg)
 <use prototype/exp_rep_imgs/strange_light.jpg>
 Package pdftex.def Info: prototype/exp_rep_imgs/strange_light.jpg  used on inpu
@@ -1397,22 +1291,18 @@ Package pdftex.def Info: Requested size: 412.80157pt x 619.2217pt on input line
 s/highspeed_faraday.jpg> <./prototype/exp_rep_imgs/tracking_droplet.jpg>] [34 <
 ./prototype/exp_rep_imgs/after_effects_interface.jpg>] [35 <./prototype/exp_rep
 _imgs/droplet_amplitude_graph.jpg>] [36]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 ) [37] [38 <./prototype/exp_rep_imgs/strange_light.jpg>]
 (./simulation/Simulation.tex
-<simulation/basich0.png, id=732, 501.875pt x 388.45125pt>
+<simulation/basich0.png, id=722, 501.875pt x 388.45125pt>
 File: simulation/basich0.png Graphic file (type png)
 <use simulation/basich0.png>
 Package pdftex.def Info: simulation/basich0.png  used on input line 14. on inpu
 t line 14.
 Package pdftex.def Info: Requested size: 258.0pt x 199.70195pt on input line 14
 .
-<simulation/basichmax.png, id=733, 521.44812pt x 404.00937pt>
+<simulation/basichmax.png, id=723, 521.44812pt x 404.00937pt>
 File: simulation/basichmax.png Graphic file (type png)
 <use simulation/basichmax.png>
 Package pdftex.def Info: simulation/basichmax.png  used on input line 19. on in
@@ -1427,7 +1317,7 @@ Overfull \hbox (2.75995pt too wide) in paragraph at lines 12--22
 [39
 
  <./simulation/basich0.png> <./simulation/basichmax.png>]
-<simulation/javaMaxHeight.png, id=747, 1505.12312pt x 1030.85126pt>
+<simulation/javaMaxHeight.png, id=737, 1505.12312pt x 1030.85126pt>
 File: simulation/javaMaxHeight.png Graphic file (type png)
 <use simulation/javaMaxHeight.png>
 Package pdftex.def Info: simulation/javaMaxHeight.png  used on input line 32. o
@@ -1435,14 +1325,14 @@ n input line 32.
 Package pdftex.def Info: Requested size: 516.0pt x 353.41048pt on input line 32
 .
  [40 <./simulation/javaMaxHeight.png>]
-<simulation/probabiltyPosition.png, id=757, 898.35625pt x 900.36375pt>
+<simulation/probabiltyPosition.png, id=747, 898.35625pt x 900.36375pt>
 File: simulation/probabiltyPosition.png Graphic file (type png)
 <use simulation/probabiltyPosition.png>
 Package pdftex.def Info: simulation/probabiltyPosition.png  used on input line 
 44. on input line 44.
 Package pdftex.def Info: Requested size: 516.0pt x 517.16934pt on input line 44
 .
-<simulation/matlab.png, id=762, 835.12pt x 597.23125pt>
+<simulation/matlab.png, id=752, 835.12pt x 597.23125pt>
 File: simulation/matlab.png Graphic file (type png)
 <use simulation/matlab.png>
 Package pdftex.def Info: simulation/matlab.png  used on input line 72. on input
@@ -1451,106 +1341,96 @@ Package pdftex.def Info: Requested size: 516.0pt x 369.03107pt on input line 72
 .
  [41] [42 <./simulation/probabiltyPosition.png>] [43 <./simulation/matlab.png>]
  [44]
-<simulation/highmemory/displacement.png, id=799, 1047.915pt x 204.765pt>
+<simulation/highmemory/displacement.png, id=789, 1047.915pt x 204.765pt>
 File: simulation/highmemory/displacement.png Graphic file (type png)
 <use simulation/highmemory/displacement.png>
 Package pdftex.def Info: simulation/highmemory/displacement.png  used on input 
-line 148. on input line 148.
+line 144. on input line 144.
 Package pdftex.def Info: Requested size: 516.0pt x 100.82938pt on input line 14
-8.
-<simulation/highmemory/velocity.png, id=800, 1047.915pt x 207.77625pt>
+4.
+<simulation/highmemory/velocity.png, id=790, 1047.915pt x 207.77625pt>
 File: simulation/highmemory/velocity.png Graphic file (type png)
 <use simulation/highmemory/velocity.png>
 Package pdftex.def Info: simulation/highmemory/velocity.png  used on input line
- 154. on input line 154.
+ 150. on input line 150.
 Package pdftex.def Info: Requested size: 516.0pt x 102.31216pt on input line 15
-4.
-<simulation/highmemory/wavefield75.png, id=801, 1278.7775pt x 687.56876pt>
+0.
+<simulation/highmemory/wavefield75.png, id=791, 1278.7775pt x 687.56876pt>
 File: simulation/highmemory/wavefield75.png Graphic file (type png)
 <use simulation/highmemory/wavefield75.png>
 Package pdftex.def Info: simulation/highmemory/wavefield75.png  used on input l
-ine 160. on input line 160.
+ine 156. on input line 156.
 Package pdftex.def Info: Requested size: 245.10315pt x 131.78299pt on input lin
-e 160.
-<simulation/highmemory/wavefield145.png, id=802, 1278.7775pt x 687.56876pt>
+e 156.
+<simulation/highmemory/wavefield145.png, id=792, 1278.7775pt x 687.56876pt>
 File: simulation/highmemory/wavefield145.png Graphic file (type png)
 <use simulation/highmemory/wavefield145.png>
 Package pdftex.def Info: simulation/highmemory/wavefield145.png  used on input 
-line 166. on input line 166.
+line 162. on input line 162.
 Package pdftex.def Info: Requested size: 245.10315pt x 131.78299pt on input lin
-e 166.
-<simulation/highmemory/wavefield165.png, id=803, 1278.7775pt x 687.56876pt>
+e 162.
+<simulation/highmemory/wavefield165.png, id=793, 1278.7775pt x 687.56876pt>
 File: simulation/highmemory/wavefield165.png Graphic file (type png)
 <use simulation/highmemory/wavefield165.png>
 Package pdftex.def Info: simulation/highmemory/wavefield165.png  used on input 
-line 172. on input line 172.
+line 168. on input line 168.
 Package pdftex.def Info: Requested size: 245.10315pt x 131.78299pt on input lin
-e 172.
-<simulation/highmemory/wavefield195.png, id=804, 1278.7775pt x 687.56876pt>
+e 168.
+<simulation/highmemory/wavefield195.png, id=794, 1278.7775pt x 687.56876pt>
 File: simulation/highmemory/wavefield195.png Graphic file (type png)
 <use simulation/highmemory/wavefield195.png>
 Package pdftex.def Info: simulation/highmemory/wavefield195.png  used on input 
-line 178. on input line 178.
+line 174. on input line 174.
 Package pdftex.def Info: Requested size: 245.10315pt x 131.78299pt on input lin
-e 178.
+e 174.
  [45] [46 <./simulation/highmemory/displacement.png> <./simulation/highmemory/v
 elocity.png> <./simulation/highmemory/wavefield75.png (PNG copy)> <./simulation
 /highmemory/wavefield145.png (PNG copy)> <./simulation/highmemory/wavefield165.
 png (PNG copy)> <./simulation/highmemory/wavefield195.png (PNG copy)>]
-<simulation/figpert.png, id=824, 895.54575pt x 274.626pt>
+<simulation/figpert.png, id=814, 895.54575pt x 274.626pt>
 File: simulation/figpert.png Graphic file (type png)
 <use simulation/figpert.png>
-Package pdftex.def Info: simulation/figpert.png  used on input line 193. on inp
-ut line 193.
-Package pdftex.def Info: Requested size: 516.0pt x 158.23976pt on input line 19
-3.
+Package pdftex.def Info: simulation/figpert.png  used on input line 189. on inp
+ut line 189.
+Package pdftex.def Info: Requested size: 516.0pt x 158.23976pt on input line 18
+9.
  [47 <./simulation/figpert.png>]
-<simulation/varmemory/walkingstate.png, id=840, 816.651pt x 167.4255pt>
+<simulation/varmemory/walkingstate.png, id=830, 816.651pt x 167.4255pt>
 File: simulation/varmemory/walkingstate.png Graphic file (type png)
 <use simulation/varmemory/walkingstate.png>
 Package pdftex.def Info: simulation/varmemory/walkingstate.png  used on input l
-ine 227. on input line 227.
+ine 223. on input line 223.
 Package pdftex.def Info: Requested size: 516.0pt x 105.79028pt on input line 22
-7.
-<simulation/varmemory/residuals.png, id=841, 808.82175pt x 154.77824pt>
+3.
+<simulation/varmemory/residuals.png, id=831, 808.82175pt x 154.77824pt>
 File: simulation/varmemory/residuals.png Graphic file (type png)
 <use simulation/varmemory/residuals.png>
 Package pdftex.def Info: simulation/varmemory/residuals.png  used on input line
- 232. on input line 232.
-Package pdftex.def Info: Requested size: 516.0pt x 98.74362pt on input line 232
+ 228. on input line 228.
+Package pdftex.def Info: Requested size: 516.0pt x 98.74362pt on input line 228
 .
-<simulation/varmemory/meWalkingState.png, id=844, 814.242pt x 172.84575pt>
+<simulation/varmemory/meWalkingState.png, id=834, 814.242pt x 172.84575pt>
 File: simulation/varmemory/meWalkingState.png Graphic file (type png)
 <use simulation/varmemory/meWalkingState.png>
 Package pdftex.def Info: simulation/varmemory/meWalkingState.png  used on input
- line 237. on input line 237.
+ line 233. on input line 233.
 Package pdftex.def Info: Requested size: 516.0pt x 109.54218pt on input line 23
-7.
-<simulation/varmemory/velocityWalkingState.png, id=845, 818.45775pt x 174.05025
+3.
+<simulation/varmemory/velocityWalkingState.png, id=835, 818.45775pt x 174.05025
 pt>
 File: simulation/varmemory/velocityWalkingState.png Graphic file (type png)
 <use simulation/varmemory/velocityWalkingState.png>
 Package pdftex.def Info: simulation/varmemory/velocityWalkingState.png  used on
- input line 243. on input line 243.
-Package pdftex.def Info: Requested size: 516.0pt x 109.73189pt on input line 24
-3.
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
+ input line 239. on input line 239.
+Package pdftex.def Info: Requested size: 516.0pt x 109.73189pt on input line 23
+9.
 Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
  [48] [49 <./simulation/varmemory/walkingstate.png> <./simulation/varmemory/res
 iduals.png> <./simulation/varmemory/meWalkingState.png> <./simulation/varmemory
 /velocityWalkingState.png>])
 [50] (./education/education.tex
-<education/evaluationchart.pdf, id=868, pagebox=cropbox, 730.73pt x 337.26pt>
+<education/evaluationchart.pdf, id=858, pagebox=cropbox, 730.73pt x 337.26pt>
 File: education/evaluationchart.pdf Graphic file (type pdf)
 <use education/evaluationchart.pdf>
 Package pdftex.def Info: education/evaluationchart.pdf  used on input line 10. 
@@ -1561,21 +1441,14 @@ Package pdftex.def Info: Requested size: 516.0pt x 238.16458pt on input line 10
 
  <./education/evaluationchart.pdf>] [52
 
-]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmb7t!
-Missing character: There is no Ä in font ptmb7t!
-Missing character: There is no ô in font ptmb7t!
-)
+])
 [53
 
 ] (./education/STFCproposal/STFCProposal.tex
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
-<education/STFCproposal/Droplet_STFC.jpg, id=897, 241.119pt x 160.965pt>
+<education/STFCproposal/Droplet_STFC.jpg, id=888, 241.119pt x 160.965pt>
 File: education/STFCproposal/Droplet_STFC.jpg Graphic file (type jpg)
 <use education/STFCproposal/Droplet_STFC.jpg>
 Package pdftex.def Info: education/STFCproposal/Droplet_STFC.jpg  used on input
@@ -1585,7 +1458,7 @@ e 13.
  [54
 
 ]
-<education/STFCproposal/STFCProposal_Timeline2.png, id=904, 1080.035pt x 270.00
+<education/STFCproposal/STFCProposal_Timeline2.png, id=895, 1080.035pt x 270.00
 874pt>
 File: education/STFCproposal/STFCProposal_Timeline2.png Graphic file (type png)
 
@@ -1596,7 +1469,7 @@ Package pdftex.def Info: Requested size: 361.19843pt x 90.29794pt on input line
  32.
  [55 <./education/STFCproposal/Droplet_STFC.jpg> <./education/STFCproposal/STFC
 Proposal_Timeline2.png>]
-<education/STFCproposal/Apparatus_STFC.png, id=914, 879.285pt x 494.84875pt>
+<education/STFCproposal/Apparatus_STFC.png, id=905, 879.285pt x 494.84875pt>
 File: education/STFCproposal/Apparatus_STFC.png Graphic file (type png)
 <use education/STFCproposal/Apparatus_STFC.png>
 Package pdftex.def Info: education/STFCproposal/Apparatus_STFC.png  used on inp
@@ -1748,27 +1621,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
 ) [71] (./meetings/8-2.tex [72
 
-] [73]) [74] (./meetings/19-2.tex
-Overfull \hbox (166.98419pt too wide) in paragraph at lines 60--61
-[]\OT1/ptm/m/n/12 Connect Mat-lab to Java to get best of both worlds - call out
- to shell https://uk.mathworks.com/help/matlab/matlab[]external/run-
- []
+] [73]) [74] (./meetings/19-2.tex [75
 
-[75
+]) [76]
+(./meetings/27-2.tex [77
 
-]) [76] (./meetings/27-2.tex [77
+]) [78] (./meetings/8-3.tex [79
 
-]
-Overfull \hbox (310.50555pt too wide) in paragraph at lines 94--95
-[]\OT1/ptm/m/n/12 Wed 21/2 us-ing high-speed cam-era - suc-cess-ful, can see wa
-ves with naked eye https://drive.google.com/open?id=13hn0rVRsYw901Yoh2cBnKkRr2T
-Jnk2Du 
- []
-
-) [78] (./meetings/8-3.tex [79
-
-]) [80] (./prototype/Labscriptv4.tex
-<prototype/UCLlogo.png, id=1422, 686.565pt x 194.97844pt>
+]) [80]
+(./prototype/Labscriptv4.tex
+<prototype/UCLlogo.png, id=1417, 686.565pt x 194.97844pt>
 File: prototype/UCLlogo.png Graphic file (type png)
 <use prototype/UCLlogo.png>
 Package pdftex.def Info: prototype/UCLlogo.png  used on input line 7. on input 
@@ -1779,24 +1641,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 12.
  [81
 
- <./prototype/UCLlogo.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
- [82
+ <./prototype/UCLlogo.png>] [82
 
 ]
-<prototype/Apparatus_Diagram.png, id=1445, 659.46375pt x 371.13657pt>
+<prototype/Apparatus_Diagram.png, id=1440, 659.46375pt x 371.13657pt>
 File: prototype/Apparatus_Diagram.png Graphic file (type png)
 <use prototype/Apparatus_Diagram.png>
 Package pdftex.def Info: prototype/Apparatus_Diagram.png  used on input line 10
 1. on input line 101.
 Package pdftex.def Info: Requested size: 516.0pt x 290.40277pt on input line 10
 1.
-<prototype/WoodenBox.jpg, id=1449, 440.39531pt x 196.48407pt>
+<prototype/WoodenBox.jpg, id=1444, 440.39531pt x 196.48407pt>
 File: prototype/WoodenBox.jpg Graphic file (type jpg)
 <use prototype/WoodenBox.jpg>
 Package pdftex.def Info: prototype/WoodenBox.jpg  used on input line 115. on in
@@ -1808,30 +1663,21 @@ Package pdftex.def Info: Requested size: 516.0pt x 230.22421pt on input line 11
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [83 <./prototype/Apparatus_Diagram.png>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ì in font ptmr7t!
-<prototype/BouncingDropletExample.png, id=1475, 140.02313pt x 128.73094pt>
+<prototype/BouncingDropletExample.png, id=1470, 140.02313pt x 128.73094pt>
 File: prototype/BouncingDropletExample.png Graphic file (type png)
 <use prototype/BouncingDropletExample.png>
 Package pdftex.def Info: prototype/BouncingDropletExample.png  used on input li
 ne 140. on input line 140.
 Package pdftex.def Info: Requested size: 165.12378pt x 151.81474pt on input lin
 e 140.
-<prototype/WalkingDropletExample.png, id=1476, 140.77594pt x 115.18031pt>
+<prototype/WalkingDropletExample.png, id=1471, 140.77594pt x 115.18031pt>
 File: prototype/WalkingDropletExample.png Graphic file (type png)
 <use prototype/WalkingDropletExample.png>
 Package pdftex.def Info: prototype/WalkingDropletExample.png  used on input lin
 e 145. on input line 145.
 Package pdftex.def Info: Requested size: 165.12378pt x 135.11014pt on input lin
 e 145.
-<prototype/IrregularMotionExample.png, id=1477, 142.28156pt x 119.69719pt>
+<prototype/IrregularMotionExample.png, id=1472, 142.28156pt x 119.69719pt>
 File: prototype/IrregularMotionExample.png Graphic file (type png)
 <use prototype/IrregularMotionExample.png>
 Package pdftex.def Info: prototype/IrregularMotionExample.png  used on input li
@@ -1841,7 +1687,7 @@ e 150.
  [84 <./prototype/WoodenBox.jpg>]
 [85 <./prototype/BouncingDropletExample.png> <./prototype/WalkingDropletExample
 .png> <./prototype/IrregularMotionExample.png>])
-<prototype/riskassessment.pdf, id=1517, pagebox=cropbox, 614.295pt x 794.97pt>
+<prototype/riskassessment.pdf, id=1512, pagebox=cropbox, 614.295pt x 794.97pt>
 File: prototype/riskassessment.pdf Graphic file (type pdf)
 <use prototype/riskassessment.pdf>
 Package pdftex.def Info: prototype/riskassessment.pdf  used on input line 122. 
@@ -1876,14 +1722,14 @@ Overfull \vbox (5.82054pt too high) has occurred while \output is active []
 ]) [99] (./prototype/LabLogs/log_21-2.tex) [100
 
 ] (./education/ppt.tex
-<education/ppt/01.png, id=1634, 722.7pt x 542.025pt>
+<education/ppt/01.png, id=1629, 722.7pt x 542.025pt>
 File: education/ppt/01.png Graphic file (type png)
 <use education/ppt/01.png>
 Package pdftex.def Info: education/ppt/01.png  used on input line 5. on input l
 ine 5.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  5.
-<education/ppt/02.png, id=1635, 722.7pt x 542.025pt>
+<education/ppt/02.png, id=1630, 722.7pt x 542.025pt>
 File: education/ppt/02.png Graphic file (type png)
 <use education/ppt/02.png>
 Package pdftex.def Info: education/ppt/02.png  used on input line 9. on input l
@@ -1895,14 +1741,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--12
 
  []
 
-<education/ppt/03.png, id=1636, 722.7pt x 542.025pt>
+<education/ppt/03.png, id=1631, 722.7pt x 542.025pt>
 File: education/ppt/03.png Graphic file (type png)
 <use education/ppt/03.png>
 Package pdftex.def Info: education/ppt/03.png  used on input line 14. on input 
 line 14.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  14.
-<education/ppt/04.png, id=1637, 722.7pt x 542.025pt>
+<education/ppt/04.png, id=1632, 722.7pt x 542.025pt>
 File: education/ppt/04.png Graphic file (type png)
 <use education/ppt/04.png>
 Package pdftex.def Info: education/ppt/04.png  used on input line 18. on input 
@@ -1914,28 +1760,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--21
 
  []
 
-<education/ppt/05.png, id=1638, 722.7pt x 542.025pt>
+<education/ppt/05.png, id=1633, 722.7pt x 542.025pt>
 File: education/ppt/05.png Graphic file (type png)
 <use education/ppt/05.png>
 Package pdftex.def Info: education/ppt/05.png  used on input line 23. on input 
 line 23.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  23.
-<education/ppt/06.png, id=1639, 722.7pt x 542.025pt>
+<education/ppt/06.png, id=1634, 722.7pt x 542.025pt>
 File: education/ppt/06.png Graphic file (type png)
 <use education/ppt/06.png>
 Package pdftex.def Info: education/ppt/06.png  used on input line 27. on input 
 line 27.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  27.
-<education/ppt/07.png, id=1640, 722.7pt x 542.025pt>
+<education/ppt/07.png, id=1635, 722.7pt x 542.025pt>
 File: education/ppt/07.png Graphic file (type png)
 <use education/ppt/07.png>
 Package pdftex.def Info: education/ppt/07.png  used on input line 33. on input 
 line 33.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  33.
-<education/ppt/08.png, id=1641, 722.7pt x 542.025pt>
+<education/ppt/08.png, id=1636, 722.7pt x 542.025pt>
 File: education/ppt/08.png Graphic file (type png)
 <use education/ppt/08.png>
 Package pdftex.def Info: education/ppt/08.png  used on input line 37. on input 
@@ -1947,28 +1793,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--40
 
  []
 
-<education/ppt/09.png, id=1642, 722.7pt x 542.025pt>
+<education/ppt/09.png, id=1637, 722.7pt x 542.025pt>
 File: education/ppt/09.png Graphic file (type png)
 <use education/ppt/09.png>
 Package pdftex.def Info: education/ppt/09.png  used on input line 42. on input 
 line 42.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  42.
-<education/ppt/14.png, id=1643, 722.7pt x 542.025pt>
+<education/ppt/14.png, id=1638, 722.7pt x 542.025pt>
 File: education/ppt/14.png Graphic file (type png)
 <use education/ppt/14.png>
 Package pdftex.def Info: education/ppt/14.png  used on input line 46. on input 
 line 46.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  46.
-<education/ppt/11.png, id=1644, 722.7pt x 542.025pt>
+<education/ppt/11.png, id=1639, 722.7pt x 542.025pt>
 File: education/ppt/11.png Graphic file (type png)
 <use education/ppt/11.png>
 Package pdftex.def Info: education/ppt/11.png  used on input line 50. on input 
 line 50.
 Package pdftex.def Info: Requested size: 245.10315pt x 183.8229pt on input line
  50.
-<education/ppt/13.png, id=1645, 722.7pt x 542.025pt>
+<education/ppt/13.png, id=1640, 722.7pt x 542.025pt>
 File: education/ppt/13.png Graphic file (type png)
 <use education/ppt/13.png>
 Package pdftex.def Info: education/ppt/13.png  used on input line 54. on input 
@@ -1988,15 +1834,8 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
 (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 8FEA58C173FB7EDA041771751C719FEF;4887
-(rerunfilecheck)             After:  485E139D2A17D5A459423BE4E1A390F2;4809.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 48FB32C8B5BEBE145F5A070BC6B68744;4755.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  )
 (\end occurred inside a group at level 1)
@@ -2004,41 +1843,39 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
 ### semi simple group (level 1) entered at line 24 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22064 strings out of 492985
- 407582 string characters out of 6132585
- 476906 words of memory out of 5000000
- 24314 multiletter control sequences out of 15000+600000
+ 21986 strings out of 492985
+ 405794 string characters out of 6132585
+ 474795 words of memory out of 5000000
+ 24239 multiletter control sequences out of 15000+600000
  50627 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,14n,77p,1747b,1032s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.73} has been referenced bu
-t does not exist, replaced by a fixed one
-
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts
-/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw
-/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
-mr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (103 pages, 56050419 bytes).
+ 62i,14n,77p,1747b,942s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
+}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ti
+mes/utmri8a.pfb>
+Output written on main.pdf (103 pages, 56050408 bytes).
 PDF statistics:
- 1887 PDF objects out of 2073 (max. 8388607)
- 1651 compressed objects within 17 object streams
- 758 named destinations out of 1000 (max. 500000)
- 943 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1880 PDF objects out of 2073 (max. 8388607)
+ 1644 compressed objects within 17 object streams
+ 755 named destinations out of 1000 (max. 500000)
+ 927 words of extra memory for PDF output out of 10000 (max. 10000000)
 
