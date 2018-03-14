@@ -53,7 +53,6 @@ The application of this to our project was that once the droplet is found at a g
 
 Although this process was successful, all it ended up proving was that a random position generator works. It does not accurately simulate the position of droplets created in our experiment. Therefore, we proceeded to calculate the equations of motion and the wavefunction of the droplet at each point.
 
-\todo{Finalise writeup of MATLAB work}
 \subsection{Rapid prototyping in MATLAB}
 In parallel to this, MATLAB was chosen to test implementations of mathematical concepts found in our research, as it has a wide variety of built in libraries, such as for graphing software and advanced mathematical processes. Initially, equations of motion for the droplet were taken from \cite{oza2013trajectory}, where (\ref{equ:MATLABPilotWave}) defines the wave-field of the particle and (\ref{equ:MATLABWaveHeight}) defines the bath height over time. To implement these, a grid object was constructed and populated with x-y coordinates. A point in the middle of the grid was then selected as the starting position for a droplet, which was used as the centre of modelling for the first interaction.
 
@@ -260,7 +259,7 @@ In the simulation performed, it was observed that the droplets initially entered
 
 \subsubsection{Wall repulsion}
 
-Wall repulsion was simulated by initiating a droplet displaced along the positive x-direction. A wall was positioned along the y-axis. By assuming the wall is completely reflective, an incoming wave should reflect off the wall out of phase, and in the direction given by the law of reflection. To simulate this, inspiration was taken from the method of mirror charges in electrostatics. Each time a waveform was added to the overall wave-function, a “mirror” waveform was also created. The “mirror” waveform added was out of phase with the droplet, and initiated at the position given by the reflection of the droplet in the y-axis.
+Wall repulsion was simulated by initiating a droplet displaced along the positive x-direction. A wall was positioned along the y-axis. By assuming the wall is completely reflective, an incoming wave should reflect off the wall out of phase, and in the direction given by the law of reflection. To simulate this, inspiration was taken from the method of mirror charges in electrostatics. Each time a waveform was added to the overall wave-function, a `mirror'� waveform was also created. The `�mirror' waveform added was out of phase with the droplet, and initiated at the position given by the reflection of the droplet in the y-axis.
 
 The simulation demonstrated that the droplet accelerates away from the wall, as expected. Due to time constraints, no detailed analysis was performed on the motion of the particle so the trajectory of repulsion was not quantified. The effects of changing variables was also not explored.
 
@@ -272,3 +271,5 @@ The original aims of the simulation were to construct an interactive software pa
 As work continued with the simulation, and the team developed a more detailed understanding of the theory behind droplet motion, additional goals were added to the project. This included determining the effect of changing simulation parameters such as the memory coefficient $Me$, and allowing the end-user to vary those without needing to understand the source code. Again, these were partially met: detailed analysis of the effect of $Me$ has been offered, an insight which would not be possible within the physical system. However, simulation parameters are still hard-coded, although this could change with relative ease in the future.
 
 While a more quantitative analysis of boundary conditions and multiple droplets would have been desirable, the preliminary results obtained agreed with qualitative predictions. This suggests the simulation's behaviour is consistent with theory, but without quantitative comparisons, the accuracy of this could not be verified. This meant that the subsidiary goal of representing quantum effects, such as double-slit diffraction, was not met. To provide a more accurate model, several other factors that were assumed negligible could be accounted for, such as adding a parameter to represent the inelasticity of collisions between the droplet and the surface.
+
+\textit{The codebase used in the course of this project can be found at \url{https://goo.gl/mji4zU}.}
